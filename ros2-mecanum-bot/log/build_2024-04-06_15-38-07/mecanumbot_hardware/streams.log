@@ -1,0 +1,116 @@
+[0.008s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.200s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.302s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.351s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.366s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.399s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.402s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.408s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.913s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.937s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.975s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.988s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.992s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.998s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.011s] -- Looking for pthread.h
+[1.056s] -- Looking for pthread.h - found
+[1.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.107s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.108s] -- Found Threads: TRUE  
+[1.313s] -- Configuring done
+[1.333s] -- Generating done
+[1.334s] -- Build files have been written to: /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware
+[1.341s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware
+[1.342s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware -- -j32 -l32
+[1.377s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_serial_port.cpp.o[0m
+[1.377s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o[0m
+[3.065s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn debict::mecanumbot::hardware::MecanumbotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[3.065s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:109:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.065s]   109 | numbotHardware::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[3.066s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.066s] 
+[3.066s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn debict::mecanumbot::hardware::MecanumbotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[3.066s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:136:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.066s]   136 | mbotHardware::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[3.066s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.066s] 
+[3.068s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type debict::mecanumbot::hardware::MecanumbotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.068s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:149:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.068s]   149 | ::return_type MecanumbotHardware::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[3.068s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.069s] 
+[3.069s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:149:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.069s]   149 | dware::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[3.069s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.069s] 
+[3.069s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type debict::mecanumbot::hardware::MecanumbotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.069s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:180:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.069s]   180 | :return_type MecanumbotHardware::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[3.069s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.069s] 
+[3.069s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:180:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.070s]   180 | ware::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[3.070s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.070s] 
+[3.150s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:[m[K In member function ‘[01m[Kdebict::mecanumbot::hardware::return_type debict::mecanumbot::hardware::MecanumbotSerialPort::read_frames(std::vector<debict::mecanumbot::hardware::SerialHdlcFrame>&)[m[K’:
+[3.150s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:93:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t read(int, void*, size_t)[m[K’ writing 256 bytes into a region of size 200 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+[3.150s]    93 |     const ssize_t num_bytes = [01;35m[K::read(serial_port_, rx_buffer_, 256)[m[K;
+[3.150s]       |                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.150s] In file included from [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:10[m[K:
+[3.150s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_serial_port.hpp:48:25:[m[K [01;36m[Knote: [m[Kdestination object ‘[01m[Kdebict::mecanumbot::hardware::MecanumbotSerialPort::rx_buffer_[m[K’ of size 200
+[3.150s]    48 |                 uint8_t [01;36m[Krx_buffer_[m[K[MECANUMBOT_SERIAL_BUFFER_MAX_SIZE];
+[3.150s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[3.150s] In file included from [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:7[m[K:
+[3.151s] [01m[K/usr/include/unistd.h:371:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (write_only, 2, 3)[m[K’
+[3.151s]   371 | extern ssize_t [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+[3.151s]       |                [01;36m[K^~~~[m[K
+[3.851s] [100%] [32m[1mLinking CXX shared library libmecanumbot_hardware.so[0m
+[3.972s] [100%] Built target mecanumbot_hardware
+[3.980s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware -- -j32 -l32
+[3.998s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware
+[4.003s] -- Install configuration: ""
+[4.003s] -- Execute custom install script
+[4.003s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware//mecanumbot_hardware.xml
+[4.009s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib/libmecanumbot_hardware.so
+[4.015s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware.hpp
+[4.020s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware_compiler.h
+[4.026s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_serial_port.hpp
+[4.031s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.sh
+[4.037s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.dsv
+[4.042s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/package_run_dependencies/mecanumbot_hardware
+[4.048s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/parent_prefix_path/mecanumbot_hardware
+[4.053s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.sh
+[4.059s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.dsv
+[4.064s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.sh
+[4.070s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.dsv
+[4.076s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.bash
+[4.081s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.sh
+[4.087s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.zsh
+[4.092s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.dsv
+[4.099s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv
+[4.104s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/packages/mecanumbot_hardware
+[4.110s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mecanumbot_hardware
+[4.115s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.121s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[4.126s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.132s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig.cmake
+[4.138s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig-version.cmake
+[4.143s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.xml
+[4.150s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware

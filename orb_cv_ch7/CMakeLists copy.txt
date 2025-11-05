@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.22)
+ project(orb_cv)
+find_package(Sophus REQUIRED)
+find_package(OpenCV REQUIRED)
+
+include_directories(${Sophus_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories("/usr/include/eigen3")
+
+
+
+include_directories(${G2O_INCLUDE_DIRS})
+
+
+add_executable(orb_cv orb_cv.cpp)
+target_link_libraries(orb_cv ${OpenCV_LIBS})
+target_link_libraries(orb_cv g2o_core g2o_stuff ${OpenCV_LIBS})

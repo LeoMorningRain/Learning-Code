@@ -1,0 +1,1 @@
+/home/leomorningrain/code/town_ws/build/village_wang/ament_cmake_core/village_wangConfig-version.cmake

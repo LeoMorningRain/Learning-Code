@@ -1,0 +1,37 @@
+[0.012s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description -- -j32 -l32
+[0.035s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description -- -j32 -l32
+[0.053s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description
+[0.057s] -- Install configuration: ""
+[0.058s] -- Execute custom install script
+[0.059s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/urdf/mecanumbot.urdf
+[0.059s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/urdf/model.urdf
+[0.064s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/rviz/model.rviz
+[0.064s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/Black3DPrint_Link.STL
+[0.069s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/Blue3DPrint_Link.STL
+[0.075s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/Body_Link.STL
+[0.080s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/LeftBackWheel_Link.STL
+[0.088s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/LeftFrontWheel_Link.STL
+[0.097s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/RightBackWheel_Link.STL
+[0.104s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/RightFrontWheel_Link.STL
+[0.110s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/base_link.STL
+[0.116s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/fl_wheel_link.STL
+[0.117s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/fr_wheel_link.STL
+[0.117s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/rl_wheel_link.STL
+[0.117s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/meshes/rr_wheel_link.STL
+[0.117s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/config/robot_controller_config.yaml
+[0.117s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/ament_index/resource_index/package_run_dependencies/mecanumbot_description
+[0.118s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/ament_index/resource_index/parent_prefix_path/mecanumbot_description
+[0.118s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.sh
+[0.118s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.dsv
+[0.118s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/environment/path.sh
+[0.118s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/environment/path.dsv
+[0.118s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/local_setup.bash
+[0.119s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/local_setup.sh
+[0.119s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/local_setup.zsh
+[0.119s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/local_setup.dsv
+[0.119s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.dsv
+[0.129s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/ament_index/resource_index/packages/mecanumbot_description
+[0.129s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig.cmake
+[0.129s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig-version.cmake
+[0.129s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.xml
+[0.140s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description

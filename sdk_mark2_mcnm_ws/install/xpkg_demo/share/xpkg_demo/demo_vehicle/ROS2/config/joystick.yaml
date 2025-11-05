@@ -1,0 +1,25 @@
+joynode:
+  ros__parameters:
+    device_name: "/dev/input/js0"
+    device_id: 0
+    deadzone: 0.05
+    autorepeat_rate: 20
+
+teleop_node:
+  ros__parameters:
+    axis_linear:
+      x: 1
+      y: 0
+    scale_linear: 
+      x: 0.05
+      y: 0.05
+    axis_angular:
+      yaw: 3
+    scale_angular:
+      yaw: 0.05
+    
+    enable_button: 4
+    require_enable_button: false
+
+    
+    

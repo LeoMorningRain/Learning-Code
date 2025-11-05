@@ -1,0 +1,28 @@
+[100%] Built target xnode_vehicle
+-- Install configuration: ""
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/ament_index/resource_index/package_run_dependencies/xpkg_vehicle
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/ament_index/resource_index/parent_prefix_path/xpkg_vehicle
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/ament_prefix_path.sh
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/path.sh
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/path.dsv
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.bash
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.sh
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.zsh
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.dsv
+-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.dsv
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/ament_index/resource_index/packages/xpkg_vehicle
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/cmake/xpkg_vehicleConfig.cmake
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/cmake/xpkg_vehicleConfig-version.cmake
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.xml
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib/xpkg_vehicle/xnode_vehicle
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/config
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/config/rviz_vehicle.rviz
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS2
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS2/xnode_vehicle_test.launch.py
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS2/xnode_vehicle_test.launch.xml
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS1
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS1/xnode_vehicle_test.launch
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/ini
+-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/ini/device_id_list.ini

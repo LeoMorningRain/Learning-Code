@@ -1,0 +1,10 @@
+setup.py
+xpkg_msgs/__init__.py
+xpkg_msgs.egg-info/PKG-INFO
+xpkg_msgs.egg-info/SOURCES.txt
+xpkg_msgs.egg-info/dependency_links.txt
+xpkg_msgs.egg-info/top_level.txt
+xpkg_msgs/msg/__init__.py
+xpkg_msgs/msg/_xmsg_comm_data.py
+xpkg_msgs/msg/_xmsg_device.py
+xpkg_msgs/msg/_xmsg_device_list.py

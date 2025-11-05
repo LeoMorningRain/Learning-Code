@@ -1,0 +1,3 @@
+/home/leomorningrain/code/gaussianNewton/build/CMakeFiles/gaussianNewton.dir
+/home/leomorningrain/code/gaussianNewton/build/CMakeFiles/edit_cache.dir
+/home/leomorningrain/code/gaussianNewton/build/CMakeFiles/rebuild_cache.dir

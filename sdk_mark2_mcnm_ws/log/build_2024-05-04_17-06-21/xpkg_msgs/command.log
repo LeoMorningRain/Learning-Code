@@ -1,0 +1,4 @@
+Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs -- -j32 -l32
+Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs -- -j32 -l32
+Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs
+Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs

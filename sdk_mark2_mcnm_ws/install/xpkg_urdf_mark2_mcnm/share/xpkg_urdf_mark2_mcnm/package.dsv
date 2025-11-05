@@ -1,0 +1,8 @@
+source;share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.ps1
+source;share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.dsv
+source;share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.sh
+source;share/xpkg_urdf_mark2_mcnm/local_setup.bash
+source;share/xpkg_urdf_mark2_mcnm/local_setup.dsv
+source;share/xpkg_urdf_mark2_mcnm/local_setup.ps1
+source;share/xpkg_urdf_mark2_mcnm/local_setup.sh
+source;share/xpkg_urdf_mark2_mcnm/local_setup.zsh

@@ -1,0 +1,66 @@
+[0.006s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.135s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.184s] -- Your ROS version is ROS2
+[0.185s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.261s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.305s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.339s] -- Configuring done
+[0.341s] -- Generating done
+[0.341s] -- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm
+[0.346s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm
+[0.346s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm -- -j32 -l32
+[0.364s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm -- -j32 -l32
+[0.379s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm
+[0.382s] -- Install configuration: ""
+[0.382s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/ament_index/resource_index/package_run_dependencies/xpkg_urdf_mark2_mcnm
+[0.382s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/ament_index/resource_index/parent_prefix_path/xpkg_urdf_mark2_mcnm
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/ament_prefix_path.sh
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/ament_prefix_path.dsv
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/path.sh
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/path.dsv
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.bash
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.sh
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.zsh
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.dsv
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.dsv
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/ament_index/resource_index/packages/xpkg_urdf_mark2_mcnm
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/cmake/xpkg_urdf_mark2_mcnmConfig.cmake
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/cmake/xpkg_urdf_mark2_mcnmConfig-version.cmake
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.xml
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS2
+[0.383s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS2/urdf.rviz
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS1
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS1/urdf.rviz
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS2
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS2/simulate.launch.py
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS2/display.launch.py
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS1
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS1/simulate.launch
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS1/display.launch
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/RightFrontWheel_Link.STL
+[0.384s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/LeftFrontWheel_Link.STL
+[0.385s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/Blue3DPrint_Link.STL
+[0.385s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/Body_Link.STL
+[0.388s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/base_link.STL
+[0.388s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/LeftBackWheel_Link.STL
+[0.389s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/Black3DPrint_Link.STL
+[0.389s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/RightBackWheel_Link.STL
+[0.390s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf
+[0.390s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf/model.urdf
+[0.390s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf/sim_base.xacro
+[0.390s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf/simplified_model.xacro
+[0.391s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm

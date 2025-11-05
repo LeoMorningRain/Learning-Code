@@ -1,0 +1,26 @@
+[0.114s] Invoking command in '/home/leomorningrain/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/town_ws/build/village_wang -- -j32 -l32
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[3.898s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[4.090s] [100%] Built target wang2_node
+[4.096s] Invoked command in '/home/leomorningrain/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/town_ws/build/village_wang -- -j32 -l32
+[4.114s] Invoking command in '/home/leomorningrain/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/town_ws/build/village_wang
+[4.117s] -- Install configuration: ""
+[4.117s] -- Execute custom install script
+[4.117s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[4.122s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[4.127s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[4.131s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[4.135s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[4.139s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[4.143s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[4.147s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[4.150s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[4.154s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[4.158s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/package.dsv
+[4.162s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[4.167s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[4.171s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[4.175s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/share/village_wang/package.xml
+[4.179s] -- Symlinking: /home/leomorningrain/code/town_ws/install/village_wang/lib/village_wang/wang2_node
+[4.184s] Invoked command in '/home/leomorningrain/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/town_ws/build/village_wang

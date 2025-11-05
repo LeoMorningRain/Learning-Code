@@ -1,0 +1,6 @@
+msg/XmsgCommData.idl
+msg/XmsgCommData.msg
+msg/XmsgDevice.idl
+msg/XmsgDevice.msg
+msg/XmsgDeviceList.idl
+msg/XmsgDeviceList.msg

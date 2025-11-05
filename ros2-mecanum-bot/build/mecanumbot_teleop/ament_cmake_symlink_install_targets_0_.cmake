@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop/mecanumbot_teleop" "TARGETS" "mecanumbot_teleop" "DESTINATION" "lib/mecanumbot_teleop")

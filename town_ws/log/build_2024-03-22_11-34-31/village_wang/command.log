@@ -1,0 +1,4 @@
+Invoking command in '/home/leomorningrain/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/town_ws/install/village_wang
+Invoked command in '/home/leomorningrain/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/town_ws/install/village_wang
+Invoking command in '/home/leomorningrain/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/town_ws/build/village_wang -- -j32 -l32
+Invoked command in '/home/leomorningrain/code/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/town_ws/build/village_wang -- -j32 -l32

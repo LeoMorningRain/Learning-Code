@@ -1,0 +1,21 @@
+[0.252s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py01_topic/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build install --record /home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.355s] running egg_info
+[0.355s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.355s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.355s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.355s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.355s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.356s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.357s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.357s] running build
+[0.357s] running build_py
+[0.357s] running install
+[0.357s] running install_lib
+[0.357s] running install_data
+[0.357s] running install_egg_info
+[0.358s] removing '/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.358s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.359s] running install_scripts
+[0.370s] Installing demo01_talker_str_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.370s] writing list of installed files to '/home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log'
+[0.382s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py01_topic/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build install --record /home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

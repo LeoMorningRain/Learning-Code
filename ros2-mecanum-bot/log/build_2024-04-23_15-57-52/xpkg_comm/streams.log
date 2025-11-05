@@ -1,0 +1,92 @@
+[0.006s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.071s] -- The CXX compiler identification is GNU 11.4.0
+[0.076s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.123s] -- Detecting C compile features
+[0.123s] -- Detecting C compile features - done
+[0.126s] -- Detecting CXX compiler ABI info
+[0.172s] -- Detecting CXX compiler ABI info - done
+[0.177s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.178s] -- Detecting CXX compile features
+[0.178s] -- Detecting CXX compile features - done
+[0.178s] -- Your ROS version is ROS2
+[0.179s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.268s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.320s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.356s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.426s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.428s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.497s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.557s] -- Looking for pthread.h
+[0.600s] -- Looking for pthread.h - found
+[0.601s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.649s] -- Found Threads: TRUE  
+[0.757s] -- Found xpkg_msgs: 0.1.0 (/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/share/xpkg_msgs/cmake)
+[0.778s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.840s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.841s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.841s] -- Configured cppcheck include dirs: /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/../..;/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/..;/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/.;/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/include;/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/include/LIB_JSON;/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/include/ROS_INF;/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/include/COMM_INF;/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/include/FUNC
+[0.841s] -- Configured cppcheck exclude dirs and/or files: 
+[0.842s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.842s] -- Configured cpplint exclude dirs and/or files: 
+[0.843s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.843s] -- Added test 'lint_cmake' to check CMake code style
+[0.844s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.845s] -- Added test 'uncrustify' to check C / C++ code style
+[0.845s] -- Configured uncrustify additional arguments: 
+[0.845s] -- Added test 'xmllint' to check XML markup files
+[0.847s] -- Configuring done
+[0.852s] -- Generating done
+[0.854s] -- Build files have been written to: /home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm
+[0.860s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm' returned '0': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm
+[0.861s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm -- -j32 -l32
+[0.898s] [ 16%] [32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/ROS_INF/ros2_interface.cpp.o[0m
+[0.898s] [ 50%] [32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/COMM_INF/comm_inf_com.cpp.o[0m
+[0.898s] [ 50%] [32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/xnode_comm.cpp.o[0m
+[0.898s] [ 66%] [32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/FUNC/comm_func.cpp.o[0m
+[0.899s] [ 83%] [32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/COMM_INF/comm_inf_tcp.cpp.o[0m
+[1.072s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/src/COMM_INF/comm_inf_com.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> CommINFCOM::COMDataRecv()[m[K’:
+[1.072s] [01m[K/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/base/xpkg_comm/src/COMM_INF/comm_inf_com.cpp:254:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktime[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.072s]   254 |     struct timeval [01;35m[Ktime[m[K;
+[1.073s]       |                    [01;35m[K^~~~[m[K
+[8.294s] [100%] [32m[1mLinking CXX executable xnode_comm[0m
+[8.686s] [100%] Built target xnode_comm
+[8.693s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm' returned '0': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm -- -j32 -l32
+[8.716s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm
+[8.721s] -- Install configuration: ""
+[8.721s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/ament_index/resource_index/package_run_dependencies/xpkg_comm
+[8.721s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/ament_index/resource_index/parent_prefix_path/xpkg_comm
+[8.721s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/environment/ament_prefix_path.sh
+[8.721s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/environment/ament_prefix_path.dsv
+[8.721s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/environment/path.sh
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/environment/path.dsv
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/local_setup.bash
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/local_setup.sh
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/local_setup.zsh
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/local_setup.dsv
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/package.dsv
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/ament_index/resource_index/packages/xpkg_comm
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/cmake/xpkg_commConfig.cmake
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/cmake/xpkg_commConfig-version.cmake
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/package.xml
+[8.722s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/lib/xpkg_comm/xnode_comm
+[8.725s] -- Set runtime path of "/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/lib/xpkg_comm/xnode_comm" to ""
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/launch
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/launch/ROS2
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/launch/ROS2/xnode_comm_test.launch.py
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/launch/ROS2/xnode_comm_test.launch.xml
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/launch/ROS1
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/launch/ROS1/xnode_comm_test.launch
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/scripts
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/scripts/script_init.py
+[8.725s] -- Installing: /home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_comm/share/xpkg_comm/scripts/CAN_COM_HUB.rules
+[8.727s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm' returned '0': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib:/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ros2-mecanum-bot/install/xpkg_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_comm

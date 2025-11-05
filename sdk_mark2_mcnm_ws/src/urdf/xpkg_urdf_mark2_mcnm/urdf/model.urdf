@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="urdf_mark2_mcnm">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.09975 -4.0621E-17 0.11305"
+        rpy="0 0 0" />
+      <mass
+        value="0.023381" />
+      <inertia
+        ixx="4.0829E-06"
+        ixy="-5.2777E-22"
+        ixz="-4.9533E-22"
+        iyy="2.8092E-06"
+        iyz="1.835E-23"
+        izz="2.0585E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Blue3DPrint_Link">
+    <inertial>
+      <origin
+        xyz="0.075679 -8.7517E-05 0.10625"
+        rpy="0 0 0" />
+      <mass
+        value="0.034868" />
+      <inertia
+        ixx="1.8414E-05"
+        ixy="2.9791E-13"
+        ixz="5.0313E-09"
+        iyy="2.5297E-06"
+        iyz="-1.5288E-13"
+        izz="1.9922E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/Blue3DPrint_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0.50196 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/Blue3DPrint_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Blue3DPrint_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Blue3DPrint_Link" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Black3DPrint_Link">
+    <inertial>
+      <origin
+        xyz="-0.021193 0.00031099 0.072553"
+        rpy="0 0 0" />
+      <mass
+        value="0.14703" />
+      <inertia
+        ixx="0.00070598"
+        ixy="-8.0064E-09"
+        ixz="-5.1007E-07"
+        iyy="4.0165E-05"
+        iyz="1.626E-08"
+        izz="0.0007347" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/Black3DPrint_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.50196 0.50196 0.50196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/Black3DPrint_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Black3DPrint_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Black3DPrint_Link" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Body_Link">
+    <inertial>
+      <origin
+        xyz="0.013835 -0.00071594 0.10917"
+        rpy="0 0 0" />
+      <mass
+        value="2.9519" />
+      <inertia
+        ixx="0.018724"
+        ixy="7.2862E-06"
+        ixz="0.00065378"
+        iyy="0.021995"
+        iyz="3.087E-07"
+        izz="0.039331" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/Body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0.8 0.8 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/Body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Body_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Body_Link" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="RightFrontWheel_Link">
+    <inertial>
+      <origin
+        xyz="-0.00014504 0.0016618 3.2446E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.38714" />
+      <inertia
+        ixx="0.00053057"
+        ixy="1.2493E-10"
+        ixz="2.8051E-10"
+        iyy="0.00094936"
+        iyz="4.9921E-09"
+        izz="0.00053058" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/RightFrontWheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.5 0.5 0.5 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/RightFrontWheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RightFrontWheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.1304 -0.15998 0.07"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="RightFrontWheel_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="RightBackWheel_Link">
+    <inertial>
+      <origin
+        xyz="4.4773E-06 0.0016363 3.2165E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.3869" />
+      <inertia
+        ixx="0.00053024"
+        ixy="6.9281E-10"
+        ixz="1.5953E-09"
+        iyy="0.00094873"
+        iyz="4.9447E-09"
+        izz="0.00053025" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/RightBackWheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.5 0.5 0.5 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/RightBackWheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RightBackWheel"
+    type="continuous">
+    <origin
+      xyz="-0.13025 -0.15995 0.07"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="RightBackWheel_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="LeftFrontWheel_Link">
+    <inertial>
+      <origin
+        xyz="1.1748E-06 -0.0016363 3.2454E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.3869" />
+      <inertia
+        ixx="0.00053024"
+        ixy="-1.7617E-10"
+        ixz="4.2826E-10"
+        iyy="0.00094873"
+        iyz="-4.9899E-09"
+        izz="0.00053025" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/LeftFrontWheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.5 0.5 0.5 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/LeftFrontWheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LeftFrontWheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.13025 0.15995 0.07"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="LeftFrontWheel_Link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="LeftBackWheel_Link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/LeftBackWheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.5 0.5 0.5 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xpkg_urdf_mark2_mcnm/meshes/LeftBackWheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LeftBackWheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.13038 0.15995 0.07"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="LeftBackWheel_Link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+</robot>

@@ -1,0 +1,180 @@
+[0.008s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs -- -j32 -l32
+[0.036s] [  2%] Built target xpkg_msgs__cpp
+[0.037s] [ 12%] Built target xpkg_msgs__rosidl_generator_c
+[0.041s] [ 12%] Built target ament_cmake_python_copy_xpkg_msgs
+[0.048s] [ 23%] Built target xpkg_msgs__rosidl_typesupport_cpp
+[0.048s] [ 44%] Built target xpkg_msgs__rosidl_typesupport_fastrtps_cpp
+[0.049s] [ 36%] Built target xpkg_msgs__rosidl_typesupport_introspection_cpp
+[0.053s] [ 65%] Built target xpkg_msgs__rosidl_typesupport_fastrtps_c
+[0.053s] [ 65%] Built target xpkg_msgs__rosidl_typesupport_c
+[0.054s] [ 76%] Built target xpkg_msgs__rosidl_typesupport_introspection_c
+[0.064s] [ 76%] Built target xpkg_msgs
+[0.074s] [ 78%] Built target xpkg_msgs__py
+[0.086s] [ 87%] Built target xpkg_msgs__rosidl_generator_py
+[0.100s] [100%] Built target xpkg_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.100s] [100%] Built target xpkg_msgs__rosidl_typesupport_c__pyext
+[0.100s] [100%] Built target xpkg_msgs__rosidl_typesupport_introspection_c__pyext
+[0.154s] running egg_info
+[0.155s] writing xpkg_msgs.egg-info/PKG-INFO
+[0.155s] writing dependency_links to xpkg_msgs.egg-info/dependency_links.txt
+[0.155s] writing top-level names to xpkg_msgs.egg-info/top_level.txt
+[0.156s] reading manifest file 'xpkg_msgs.egg-info/SOURCES.txt'
+[0.156s] writing manifest file 'xpkg_msgs.egg-info/SOURCES.txt'
+[0.169s] [100%] Built target ament_cmake_python_build_xpkg_msgs_egg
+[0.177s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs -- -j32 -l32
+[0.224s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs
+[0.229s] -- Install configuration: ""
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/rosidl_interfaces/xpkg_msgs
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__functions.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__type_support.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__functions.c
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__functions.c
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__struct.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__struct.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__functions.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__struct.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__functions.c
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__functions.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__type_support.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device_list.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_comm_data.h
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/library_path.sh
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/library_path.dsv
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_generator_c.so
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg
+[0.229s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_fastrtps_c.h
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_fastrtps_c.h
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_fastrtps_c.h
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_fastrtps_c.so
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device_list.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_comm_data.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__builder.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__traits.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__builder.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__struct.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__struct.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__struct.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__builder.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__traits.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__traits.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_fastrtps_cpp.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_fastrtps_cpp.hpp
+[0.230s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/dds_fastrtps
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__type_support.c
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_introspection_c.h
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_introspection_c.h
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.c
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__type_support.c
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_introspection_c.h
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_introspection_c.so
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_c.so
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail
+[0.231s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__type_support.cpp
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_introspection_cpp.hpp
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.cpp
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__type_support.cpp
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_introspection_cpp.hpp
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_introspection_cpp.hpp
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_introspection_cpp.so
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_cpp.so
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/pythonpath.sh
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/pythonpath.dsv
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info
+[0.232s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[0.232s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[0.232s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.232s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.232s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_comm_data_s.c
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_comm_data.py
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device_s.c
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/__init__.py
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device_list.py
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device.py
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device_list_s.c
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/libxpkg_msgs__rosidl_generator_py.so
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/__init__.py
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.233s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_c.c
+[0.247s] Listing '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs'...
+[0.247s] Listing '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg'...
+[0.249s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.249s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_generator_py.so
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgCommData.idl
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDeviceList.idl
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDevice.idl
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgCommData.msg
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDeviceList.msg
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDevice.msg
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/package_run_dependencies/xpkg_msgs
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/parent_prefix_path/xpkg_msgs
+[0.250s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/ament_prefix_path.sh
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/ament_prefix_path.dsv
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/path.sh
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/path.dsv
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.bash
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.sh
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.zsh
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.dsv
+[0.251s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.dsv
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/packages/xpkg_msgs
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_cExport.cmake
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_cppExport.cmake
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.251s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cExport.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cppExport.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_pyExport.cmake
+[0.252s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/rosidl_cmake-extras.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgsConfig.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgsConfig-version.cmake
+[0.253s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.xml
+[0.253s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs

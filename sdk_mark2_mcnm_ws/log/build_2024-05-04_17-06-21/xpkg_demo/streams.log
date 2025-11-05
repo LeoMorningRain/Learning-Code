@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo -- -j32 -l32
+[0.029s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo -- -j32 -l32
+[0.051s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo
+[0.056s] -- Install configuration: ""
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/ament_index/resource_index/package_run_dependencies/xpkg_demo
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/ament_index/resource_index/parent_prefix_path/xpkg_demo
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/path.sh
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/path.dsv
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.bash
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.sh
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.zsh
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.dsv
+[0.056s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.dsv
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/ament_index/resource_index/packages/xpkg_demo
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/cmake/xpkg_demoConfig.cmake
+[0.056s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/cmake/xpkg_demoConfig-version.cmake
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.xml
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/config
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/config/rviz_vehicle.rviz
+[0.057s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/config/joystick.yaml
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/vehicle_ctrl_map.png
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/bringup_basic_ctrl.launch.xml
+[0.057s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/joystick.launch.py
+[0.057s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/bringup_basic_ctrl.launch.py
+[0.058s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo

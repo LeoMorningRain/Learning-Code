@@ -1,0 +1,1 @@
+/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup/ament_cmake_core/mecanumbot_bringupConfig-version.cmake

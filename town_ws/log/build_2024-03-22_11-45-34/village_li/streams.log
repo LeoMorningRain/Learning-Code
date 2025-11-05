@@ -1,0 +1,21 @@
+[0.254s] Invoking command in '/home/leomorningrain/code/town_ws/src/village_li': PYTHONPATH=/home/leomorningrain/code/town_ws/build/village_li/prefix_override:/home/leomorningrain/code/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/leomorningrain/code/town_ws/build/village_li/build install --record /home/leomorningrain/code/town_ws/build/village_li/install.log --single-version-externally-managed install_data
+[0.357s] running egg_info
+[0.358s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.358s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.358s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.358s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.358s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.358s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.359s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.359s] running build
+[0.359s] running build_py
+[0.359s] running install
+[0.359s] running install_lib
+[0.360s] running install_data
+[0.360s] running install_egg_info
+[0.361s] removing '/home/leomorningrain/code/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[0.361s] Copying ../../build/village_li/village_li.egg-info to /home/leomorningrain/code/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.361s] running install_scripts
+[0.372s] Installing li4_node script to /home/leomorningrain/code/town_ws/install/village_li/lib/village_li
+[0.372s] writing list of installed files to '/home/leomorningrain/code/town_ws/build/village_li/install.log'
+[0.382s] Invoked command in '/home/leomorningrain/code/town_ws/src/village_li' returned '0': PYTHONPATH=/home/leomorningrain/code/town_ws/build/village_li/prefix_override:/home/leomorningrain/code/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/leomorningrain/code/town_ws/build/village_li/build install --record /home/leomorningrain/code/town_ws/build/village_li/install.log --single-version-externally-managed install_data

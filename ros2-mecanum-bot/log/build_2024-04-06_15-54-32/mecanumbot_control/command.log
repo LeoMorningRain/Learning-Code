@@ -1,0 +1,4 @@
+Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control -- -j32 -l32
+Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control -- -j32 -l32
+Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control
+Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control

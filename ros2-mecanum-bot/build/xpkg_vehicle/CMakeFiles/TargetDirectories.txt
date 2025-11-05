@@ -1,0 +1,10 @@
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/uninstall.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/xpkg_vehicle_uninstall.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/xnode_vehicle.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/test.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/edit_cache.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/rebuild_cache.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/list_install_components.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/install.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/install/local.dir
+/home/leomorningrain/code/ros2-mecanum-bot/build/xpkg_vehicle/CMakeFiles/install/strip.dir

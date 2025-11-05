@@ -1,0 +1,47 @@
+[0.007s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action:/home/leomorningrain/code/ws01_plumbing/install/cpp02_service:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py02_service:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp03_action -- -j32 -l32
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[0.044s] [ 50%] Built target demo02_action_client
+[0.047s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[1.073s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ProgressActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[1.073s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:38:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.073s]    38 | dle_goal([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const Progress::Goal> goal)
+[1.073s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.073s] 
+[1.073s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:38:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.074s]    38 |  &uuid, [01;35m[Kstd::shared_ptr<const Progress::Goal> goal[m[K)
+[1.074s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.074s] 
+[1.074s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[1.074s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:44:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.074s]    44 | [01;35m[Kcpp_action::ServerGoalHandle<Progress>> goal_handler[m[K)
+[1.074s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.074s] 
+[1.074s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[1.074s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:49:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.074s]    49 | [01;35m[Kcpp_action::ServerGoalHandle<Progress>> goal_handler[m[K)
+[1.074s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.074s] 
+[1.588s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[1.656s] [100%] Built target demo01_action_server
+[1.662s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action:/home/leomorningrain/code/ws01_plumbing/install/cpp02_service:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py02_service:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp03_action -- -j32 -l32
+[1.680s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action:/home/leomorningrain/code/ws01_plumbing/install/cpp02_service:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py02_service:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/ws01_plumbing/build/cpp03_action
+[1.684s] -- Install configuration: ""
+[1.684s] -- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[1.685s] -- Set runtime path of "/home/leomorningrain/code/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[1.685s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[1.686s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[1.686s] -- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[1.686s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[1.686s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[1.686s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[1.686s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[1.686s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action:/home/leomorningrain/code/ws01_plumbing/install/cpp02_service:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py02_service:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/ws01_plumbing/build/cpp03_action

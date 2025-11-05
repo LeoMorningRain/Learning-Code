@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_server_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_server_cpp.dir/src/demo01_server_cpp.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo01_server_cpp[0m
+[100%] Built target demo01_server_cpp
+-- Install configuration: ""
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server_cpp
+-- Set runtime path of "/home/leomorningrain/code/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server_cpp" to ""
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+-- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml

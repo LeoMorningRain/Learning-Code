@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/leomorningrain/code/ceresCurveFitting",
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.autoSaveWorkspaceFilesOnly": false,
+    "editor.formatOnSave": true
+}

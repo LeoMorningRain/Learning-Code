@@ -1,0 +1,50 @@
+[0.006s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.035s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[1.048s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.049s]                  from [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:14[m[K:
+[1.049s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:[m[K In member function ‘[01m[Kvoid Talker::on_timer()[m[K’:
+[1.049s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:40:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.049s]    40 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"发布方发布消息:%s"[m[K, [32m[Kstd::to_string(var)[m[K);
+[1.049s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[1.049s]       |                                                                        [32m[K|[m[K
+[1.049s]       |                                                                        [32m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.049s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:40:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.049s]    40 | FO(this->get_logger(), "发布方发布消息:[01;36m[K%s[m[K", std::to_string(var));
+[1.049s]       |                                        [01;36m[K~^[m[K
+[1.049s]       |                                         [01;36m[K|[m[K
+[1.049s]       |                                         [01;36m[Kchar*[m[K
+[1.049s] 
+[1.948s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[2.030s] [100%] Built target demo01_talker_str
+[2.040s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[2.068s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic
+[2.075s] -- Install configuration: ""
+[2.075s] -- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[2.076s] -- Set runtime path of "/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[2.077s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[2.077s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[2.077s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[2.077s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[2.077s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[2.077s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[2.077s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[2.078s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[2.078s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[2.078s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[2.078s] -- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[2.078s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[2.079s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[2.080s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[2.080s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[2.080s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic

@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/**",
+                "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/**",
+                "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/include/**",
+                "/usr/include/**",
+                "/usr/local/include/**",
+                "/usr/local/lib/**",
+                "/usr/lib/**",
+                "/opt/ros/humble/include/**",
+                "/opt/ros/humble/include/std_msgs"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

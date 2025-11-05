@@ -1,0 +1,52 @@
+[0.594s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py01_topic/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build install --record /home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.725s] running egg_info
+[0.726s] creating ../../build/py01_topic/py01_topic.egg-info
+[0.726s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.726s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.726s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.726s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.726s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.727s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.727s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.728s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.728s] running build
+[0.728s] running build_py
+[0.728s] creating /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build
+[0.728s] creating /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib
+[0.728s] creating /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.728s] copying py01_topic/demo02_listener_str_py.py -> /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.728s] copying py01_topic/test.py -> /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.728s] copying py01_topic/demo03_talker_stu_py.py -> /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.728s] copying py01_topic/demo04_listener_stu_py.py -> /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.728s] copying py01_topic/__init__.py -> /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.729s] copying py01_topic/demo01_talker_str_py.py -> /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.729s] running install
+[0.729s] running install_lib
+[0.729s] creating /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.729s] copying /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo02_listener_str_py.py -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.729s] copying /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic/test.py -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.729s] copying /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo03_talker_stu_py.py -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.729s] copying /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo04_listener_stu_py.py -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.729s] copying /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.729s] copying /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.729s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo02_listener_str_py.py to demo02_listener_str_py.cpython-310.pyc
+[0.729s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/test.py to test.cpython-310.pyc
+[0.729s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu_py.py to demo03_talker_stu_py.cpython-310.pyc
+[0.730s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo04_listener_stu_py.py to demo04_listener_stu_py.cpython-310.pyc
+[0.730s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[0.730s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-310.pyc
+[0.730s] running install_data
+[0.730s] creating /home/leomorningrain/code/ws01_plumbing/install/py01_topic/share/ament_index
+[0.730s] creating /home/leomorningrain/code/ws01_plumbing/install/py01_topic/share/ament_index/resource_index
+[0.730s] creating /home/leomorningrain/code/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.730s] copying resource/py01_topic -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.730s] copying package.xml -> /home/leomorningrain/code/ws01_plumbing/install/py01_topic/share/py01_topic
+[0.730s] running install_egg_info
+[0.731s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.732s] running install_scripts
+[0.744s] Installing demo01_talker_str_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.745s] Installing demo02_listener_str_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.745s] Installing demo03_talker_stu_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.745s] Installing demo04_listener_stu_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.745s] writing list of installed files to '/home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log'
+[0.759s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py01_topic/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build install --record /home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+[01m[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:[m[K In member function ‘[01m[Kvoid VehicleFuncOdom::CalcWithSpeed(double, double, double, double, int, unsigned char)[m[K’:
+[01m[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:75:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktime_last[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   75 |     static double [01;35m[Ktime_last[m[K = 0.0,dt = 0.0;
+      |                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:72:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krotate_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   72 | void VehicleFuncOdom::CalcWithSpeed(double v_x,double v_y,double v_r,double time_now,int serial_num,[01;35m[Kunsigned char rotate_mode[m[K)
+      |                                                                                                     [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:[m[K In member function ‘[01m[Kvoid VehicleFuncOdom::CalcWithOdom(double, double, double, double, double, double, int, unsigned char)[m[K’:
+[01m[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:173:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktime_last[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  173 |     static double [01;35m[Ktime_last[m[K = 0.0,dt = 0.0,d_avg_last = 0.0,d_avg_y_last = 0.0,d_th_last = 0.0;
+      |                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:170:152:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Krotate_mode[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-parameter-Wunused-but-set-parameter]8;;[m[K]
+  170 | void VehicleFuncOdom::CalcWithOdom(double v_r,double odom_l,double odom_r,double odom_l_s,double odom_r_s,double time_now,int serial_num,[01;35m[Kunsigned char rotate_mode[m[K)
+      |                                                                                                                                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K

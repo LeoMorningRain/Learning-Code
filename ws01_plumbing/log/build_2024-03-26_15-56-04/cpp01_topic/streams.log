@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.036s] [ 66%] Built target demo02_listener_str
+[0.036s] [ 66%] Built target demo01_talker_str
+[0.038s] [ 83%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[2.151s] [100%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[2.244s] [100%] Built target demo03_talker_stu
+[2.253s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[2.282s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic
+[2.296s] -- Install configuration: ""
+[2.296s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[2.296s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[2.297s] -- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[2.299s] -- Set runtime path of "/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[2.299s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[2.300s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[2.300s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[2.300s] -- Installing: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[2.300s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[2.300s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[2.300s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[2.300s] -- Up-to-date: /home/leomorningrain/code/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[2.301s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp01_topic:/home/leomorningrain/code/ws01_plumbing/install/py01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic

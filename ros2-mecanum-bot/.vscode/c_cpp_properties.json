@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/ws01_plumbing/install/**",
+                "/usr/include/**",
+                "/usr/local/include/**",
+                "/usr/local/lib/**",
+                "/usr/lib/**",
+                "/opt/ros/humble/include/**",
+                "/opt/ros/humble/include/std_msgs"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

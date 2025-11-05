@@ -1,0 +1,13 @@
+[01m[K/home/leomorningrain/code/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[01m[K/home/leomorningrain/code/town_ws/src/village_wang/src/wang2.cpp:26:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   26 |         sub_novel = this->[01;31m[Kcreate_subscription<std_msgs::msg::String, >[m[K("sex_girl", 10, std::bind(SingleDogNode::novel_callback, this, _1));
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leomorningrain/code/town_ws/src/village_wang/src/wang2.cpp:26:113:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid SingleDogNode::novel_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+   26 |         sub_novel = this->create_subscription<std_msgs::msg::String, >("sex_girl", 10, std::bind([01;31m[KSingleDogNode::novel_callback[m[K, this, _1));
+      |                                                                                                  [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/leomorningrain/code/town_ws/src/village_wang/src/wang2.cpp:15:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   15 |     void [01;36m[Knovel_callback[m[K(const std_msgs::msg::String::SharedPtr novels)
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

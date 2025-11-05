@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_server_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_server_cpp.dir/src/demo01_server_cpp.cpp.o[0m
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp02_service/src/demo01_server_cpp.cpp:[m[K In constructor ‘[01m[KAddIntsServer::AddIntsServer()[m[K’:
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp02_service/src/demo01_server_cpp.cpp:36:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   36 |   [01;31m[K}[m[K;
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo01_server_cpp.dir/build.make:76: CMakeFiles/demo01_server_cpp.dir/src/demo01_server_cpp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_server_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:37:60:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Talker::on_time()[m[K’
+   37 | te_wall_timer(1s, std::bind([01;31m[KTalker::on_time[m[K));
+      |                             [01;31m[K~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:24:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   24 |   void [01;36m[Kon_time[m[K()
+      |        [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_talker_str.dir/build.make:76: CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_talker_str.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[0.120s] Invoking command in '/home/leomorningrain/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/town_ws/build/village_wang -- -j32 -l32
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.154s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[1.228s] [01m[K/home/leomorningrain/code/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[1.228s] [01m[K/home/leomorningrain/code/town_ws/src/village_wang/src/wang2.cpp:26:111:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid SingleDogNode::novel_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[1.228s]    26 |         sub_novel = this->create_subscription<std_msgs::msg::String>("sex_girl", 10, std::bind([01;31m[KSingleDogNode::novel_callback[m[K, this, _1));
+[1.228s]       |                                                                                                [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.228s] [01m[K/home/leomorningrain/code/town_ws/src/village_wang/src/wang2.cpp:15:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.228s]    15 |     void [01;36m[Knovel_callback[m[K(const std_msgs::msg::String::SharedPtr novels)
+[1.228s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.437s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+[1.437s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+[1.437s] gmake: *** [Makefile:146: all] Error 2
+[1.439s] Invoked command in '/home/leomorningrain/code/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/town_ws/build/village_wang -- -j32 -l32

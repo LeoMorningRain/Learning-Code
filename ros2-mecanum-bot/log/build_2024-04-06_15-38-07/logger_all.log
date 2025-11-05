@@ -1,0 +1,498 @@
+[0.044s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.044s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b232b500910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b232b4c7b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b232b4c7b50>>)
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.112s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leomorningrain/code/ros2-mecanum-bot'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'cmake'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'python'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['python_setup_py']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'python_setup_py'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_bringup' with type 'ros.ament_cmake' and name 'mecanumbot_bringup'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_control' with type 'ros.ament_cmake' and name 'mecanumbot_control'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_controller' with type 'ros.ament_cmake' and name 'mecanumbot_controller'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_description' with type 'ros.ament_cmake' and name 'mecanumbot_description'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_hardware' with type 'ros.ament_cmake' and name 'mecanumbot_hardware'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_teleop' with type 'ros.ament_cmake' and name 'mecanumbot_teleop'
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.133s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control', 'merge_install': False, 'path': '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_control', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller', 'merge_install': False, 'path': '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_controller', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description', 'merge_install': False, 'path': '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware', 'merge_install': False, 'path': '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop', 'merge_install': False, 'path': '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup', 'merge_install': False, 'path': '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.157s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_description' with build type 'ament_cmake'
+[0.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_description'
+[0.159s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.161s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_control' with build type 'ament_cmake'
+[0.161s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_control'
+[0.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.162s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_controller' with build type 'ament_cmake'
+[0.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_controller'
+[0.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware' with build type 'ament_cmake'
+[0.164s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware'
+[0.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.165s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_teleop' with build type 'ament_cmake'
+[0.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_teleop'
+[0.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description
+[0.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control
+[0.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller
+[0.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware
+[0.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description -- -j32 -l32
+[0.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description -- -j32 -l32
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description
+[0.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_description)
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_description
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description' for CMake module files
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description' for CMake config files
+[0.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_description', 'cmake_prefix_path')
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.dsv'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.sh'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/bin'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/lib/pkgconfig/mecanumbot_description.pc'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/lib/python3.10/site-packages'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/bin'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.bash'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.zsh'
+[0.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/colcon-core/packages/mecanumbot_description)
+[0.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_description)
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description' for CMake module files
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description' for CMake config files
+[0.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_description', 'cmake_prefix_path')
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.sh'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/bin'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/lib/pkgconfig/mecanumbot_description.pc'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/lib/python3.10/site-packages'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/bin'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.dsv'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.sh'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.bash'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/mecanumbot_description/package.zsh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description/share/colcon-core/packages/mecanumbot_description)
+[0.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_bringup' with build type 'ament_cmake'
+[0.828s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_bringup'
+[0.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop -- -j32 -l32
+[1.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup -- -j32 -l32
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup -- -j32 -l32
+[1.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup
+[1.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_bringup)
+[1.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_bringup
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup' for CMake module files
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup' for CMake config files
+[1.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_bringup', 'cmake_prefix_path')
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.sh'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/bin'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/lib/pkgconfig/mecanumbot_bringup.pc'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/lib/python3.10/site-packages'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/bin'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.ps1'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.sh'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.bash'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.zsh'
+[1.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/colcon-core/packages/mecanumbot_bringup)
+[1.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_bringup)
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup' for CMake module files
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup' for CMake config files
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_bringup', 'cmake_prefix_path')
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.sh'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/bin'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/lib/pkgconfig/mecanumbot_bringup.pc'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/lib/python3.10/site-packages'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/bin'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.dsv'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.sh'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.bash'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/mecanumbot_bringup/package.zsh'
+[1.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_bringup/share/colcon-core/packages/mecanumbot_bringup)
+[1.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware
+[1.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware -- -j32 -l32
+[1.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller
+[1.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller -- -j32 -l32
+[1.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control
+[1.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control -- -j32 -l32
+[4.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware -- -j32 -l32
+[4.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware
+[4.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_hardware)
+[4.313s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware' for CMake module files
+[4.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware' for CMake config files
+[4.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'cmake_prefix_path')
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.ps1'
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.dsv'
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.sh'
+[4.316s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib'
+[4.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'ld_library_path_lib')
+[4.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.ps1'
+[4.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.dsv'
+[4.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.sh'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/bin'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib/pkgconfig/mecanumbot_hardware.pc'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib/python3.10/site-packages'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/bin'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.ps1'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.sh'
+[4.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.bash'
+[4.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.zsh'
+[4.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/colcon-core/packages/mecanumbot_hardware)
+[4.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_hardware)
+[4.338s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware' for CMake module files
+[4.338s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware' for CMake config files
+[4.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'cmake_prefix_path')
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.ps1'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.dsv'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.sh'
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib'
+[4.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'ld_library_path_lib')
+[4.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.ps1'
+[4.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.dsv'
+[4.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.sh'
+[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/bin'
+[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib/pkgconfig/mecanumbot_hardware.pc'
+[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib/python3.10/site-packages'
+[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/bin'
+[4.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.ps1'
+[4.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv'
+[4.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.sh'
+[4.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.bash'
+[4.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.zsh'
+[4.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/colcon-core/packages/mecanumbot_hardware)
+[4.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control -- -j32 -l32
+[4.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control
+[5.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_control)
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control' for CMake module files
+[5.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_control
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control' for CMake config files
+[5.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_control', 'cmake_prefix_path')
+[5.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.ps1'
+[5.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.dsv'
+[5.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.sh'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/lib'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/bin'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/lib/pkgconfig/mecanumbot_control.pc'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/lib/python3.10/site-packages'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/bin'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.ps1'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.dsv'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.sh'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.bash'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.zsh'
+[5.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/colcon-core/packages/mecanumbot_control)
+[5.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_control)
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control' for CMake module files
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control' for CMake config files
+[5.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_control', 'cmake_prefix_path')
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.ps1'
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.dsv'
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.sh'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/lib'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/bin'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/lib/pkgconfig/mecanumbot_control.pc'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/lib/python3.10/site-packages'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/bin'
+[5.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.ps1'
+[5.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.dsv'
+[5.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.sh'
+[5.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.bash'
+[5.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/mecanumbot_control/package.zsh'
+[5.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_control/share/colcon-core/packages/mecanumbot_control)
+[6.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop -- -j32 -l32
+[6.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop
+[6.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_teleop)
+[6.578s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop' for CMake module files
+[6.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_teleop
+[6.578s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop' for CMake config files
+[6.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_teleop', 'cmake_prefix_path')
+[6.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.ps1'
+[6.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.dsv'
+[6.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.sh'
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/lib'
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/bin'
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/lib/pkgconfig/mecanumbot_teleop.pc'
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/lib/python3.10/site-packages'
+[6.580s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/bin'
+[6.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.ps1'
+[6.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv'
+[6.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.sh'
+[6.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.bash'
+[6.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.zsh'
+[6.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/colcon-core/packages/mecanumbot_teleop)
+[6.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_teleop)
+[6.598s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop' for CMake module files
+[6.598s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop' for CMake config files
+[6.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_teleop', 'cmake_prefix_path')
+[6.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.ps1'
+[6.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.dsv'
+[6.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.sh'
+[6.599s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/lib'
+[6.599s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/bin'
+[6.600s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/lib/pkgconfig/mecanumbot_teleop.pc'
+[6.600s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/lib/python3.10/site-packages'
+[6.600s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/bin'
+[6.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.ps1'
+[6.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv'
+[6.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.sh'
+[6.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.bash'
+[6.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/mecanumbot_teleop/package.zsh'
+[6.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_teleop/share/colcon-core/packages/mecanumbot_teleop)
+[6.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller -- -j32 -l32
+[6.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller
+[7.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_controller)
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller' for CMake module files
+[7.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_controller
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller' for CMake config files
+[7.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'cmake_prefix_path')
+[7.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.ps1'
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.dsv'
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.sh'
+[7.040s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib'
+[7.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'ld_library_path_lib')
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.ps1'
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.dsv'
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.sh'
+[7.040s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/bin'
+[7.040s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib/pkgconfig/mecanumbot_controller.pc'
+[7.041s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib/python3.10/site-packages'
+[7.041s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/bin'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.ps1'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.sh'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.bash'
+[7.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.zsh'
+[7.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/colcon-core/packages/mecanumbot_controller)
+[7.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_controller)
+[7.056s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller' for CMake module files
+[7.056s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller' for CMake config files
+[7.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'cmake_prefix_path')
+[7.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.ps1'
+[7.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.dsv'
+[7.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.sh'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib'
+[7.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'ld_library_path_lib')
+[7.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.ps1'
+[7.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.dsv'
+[7.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.sh'
+[7.058s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/bin'
+[7.058s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib/pkgconfig/mecanumbot_controller.pc'
+[7.058s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/lib/python3.10/site-packages'
+[7.058s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/bin'
+[7.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.ps1'
+[7.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.sh'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.bash'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/mecanumbot_controller/package.zsh'
+[7.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_controller/share/colcon-core/packages/mecanumbot_controller)
+[7.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.060s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.063s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.069s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/ros2-mecanum-bot/install/local_setup.ps1'
+[7.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leomorningrain/code/ros2-mecanum-bot/install/_local_setup_util_ps1.py'
+[7.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/ros2-mecanum-bot/install/setup.ps1'
+[7.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/ros2-mecanum-bot/install/local_setup.sh'
+[7.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leomorningrain/code/ros2-mecanum-bot/install/_local_setup_util_sh.py'
+[7.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/ros2-mecanum-bot/install/setup.sh'
+[7.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/ros2-mecanum-bot/install/local_setup.bash'
+[7.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/ros2-mecanum-bot/install/setup.bash'
+[7.072s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/ros2-mecanum-bot/install/local_setup.zsh'
+[7.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/ros2-mecanum-bot/install/setup.zsh'

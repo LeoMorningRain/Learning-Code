@@ -1,0 +1,4 @@
+source;share/xpkg_vehicle/local_setup.bash
+source;share/xpkg_vehicle/local_setup.dsv
+source;share/xpkg_vehicle/local_setup.sh
+source;share/xpkg_vehicle/local_setup.zsh

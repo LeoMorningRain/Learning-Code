@@ -1,0 +1,152 @@
+[0.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/leomorningrain/code/sdk_mark2_mcnm_ws']
+[0.046s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/leomorningrain/code/sdk_mark2_mcnm_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7350813455d0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x735081344370>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x735081344370>>)
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.126s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leomorningrain/code/sdk_mark2_mcnm_ws'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/build) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/build) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/log) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/log) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm' with type 'ros.ament_cmake' and name 'xpkg_comm'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs' with type 'ros.ament_cmake' and name 'xpkg_msgs'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis' with type 'ros.ament_cmake' and name 'xpkg_demo'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle' with type 'ros.ament_cmake' and name 'xpkg_vehicle'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm' with type 'ros.ament_cmake' and name 'xpkg_urdf_mark2_mcnm'
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

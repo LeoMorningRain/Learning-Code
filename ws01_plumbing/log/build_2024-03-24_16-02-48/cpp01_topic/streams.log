@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[1.088s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[1.088s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:37:60:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Talker::on_time()[m[K’
+[1.088s]    37 | te_wall_timer(1s, std::bind([01;31m[KTalker::on_time[m[K));
+[1.088s]       |                             [01;31m[K~~~~~~~~^~~~~~~[m[K
+[1.088s] 
+[1.088s] [01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:24:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.088s]    24 |   void [01;36m[Kon_time[m[K()
+[1.088s]       |        [01;36m[K^~~~~~~[m[K
+[1.440s] gmake[2]: *** [CMakeFiles/demo01_talker_str.dir/build.make:76: CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o] Error 1
+[1.440s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_talker_str.dir/all] Error 2
+[1.440s] gmake: *** [Makefile:146: all] Error 2
+[1.442s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ws01_plumbing/build/cpp01_topic -- -j32 -l32

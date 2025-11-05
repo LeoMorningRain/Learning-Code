@@ -1,0 +1,8 @@
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In constructor ‘[01m[KListener::Listener()[m[K’:
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:21:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K；[m[K’
+   21 |         RCLCPP_INFO(this->get_logger(), "订阅方创建!")[01;31m[K；[m[K
+      |                                                       [01;31m[K^~[m[K
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:21:55:[m[K [01;31m[Kerror: [m[K‘[01m[K；[m[K’ was not declared in this scope
+gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76: CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_listener_str.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

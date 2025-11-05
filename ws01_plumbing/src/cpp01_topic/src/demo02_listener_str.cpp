@@ -1,0 +1,48 @@
+/*
+需求：订阅发布方发布的消息，并在终端输出
+流程：
+    1.包含头文件
+    2.初始化ros2客户端
+    3.自定义节点类
+        3-1.创建订阅方
+        3-2.解析并输出数据
+    4.调用spin函数，并传入节点对象指针；
+    5.资源释放
+*/
+
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+class Listener : public rclcpp::Node
+{
+private:
+    void do_cb(const std_msgs::msg::String &msg)
+    {
+        RCLCPP_INFO(this->get_logger(), "订阅到的消息是：%s", msg.data.c_str());
+    }
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subcription_;
+
+public:
+    Listener() : Node("listener_node_cpp")
+    {
+        RCLCPP_INFO(this->get_logger(), "订阅方创建!");
+        // 3.自定义节点类
+        // 3 - 1.创建订阅方
+        // 模板：
+        // 参数：
+        //     1.话题名称；
+        //     2.QOS，队列深度
+        //     3.回调函数
+        // 返回值：订阅对象指针
+        subcription_ = this->create_subscription<std_msgs::msg::String>("chatter", 10, std::bind(&Listener::do_cb, this, std::placeholders::_1));
+
+        // 3 - 2.解析并输出数据
+    }
+};
+
+int main(int argc, char *argv[])
+{
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<Listener>());
+    rclcpp::shutdown();
+    return 0;
+}

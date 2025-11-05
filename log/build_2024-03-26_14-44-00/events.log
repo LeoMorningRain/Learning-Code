@@ -1,0 +1,337 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (-) JobUnselected: {'identifier': 'HelloSLAM'}
+[0.000129] (-) JobUnselected: {'identifier': 'bundle_adjustment'}
+[0.000138] (-) JobUnselected: {'identifier': 'ch12'}
+[0.000145] (-) JobUnselected: {'identifier': 'ch5'}
+[0.000151] (-) JobUnselected: {'identifier': 'ch6'}
+[0.000158] (-) JobUnselected: {'identifier': 'ch6'}
+[0.000164] (-) JobUnselected: {'identifier': 'ch8'}
+[0.000170] (-) JobUnselected: {'identifier': 'chapter3'}
+[0.000176] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000182] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000188] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000195] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000201] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000208] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000214] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000221] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000227] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000233] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000239] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000246] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000253] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000259] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000265] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000272] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000278] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000284] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000290] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000297] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000303] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000309] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000315] (-) JobUnselected: {'identifier': 'g2oCurveFitting'}
+[0.000321] (-) JobUnselected: {'identifier': 'gaussianNewton'}
+[0.000328] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000334] (-) JobUnselected: {'identifier': 'learning_action'}
+[0.000340] (-) JobUnselected: {'identifier': 'learning_action'}
+[0.000347] (-) JobUnselected: {'identifier': 'learning_action_cpp'}
+[0.000353] (-) JobUnselected: {'identifier': 'learning_action_cpp'}
+[0.000360] (-) JobUnselected: {'identifier': 'learning_cv'}
+[0.000366] (-) JobUnselected: {'identifier': 'learning_cv'}
+[0.000372] (-) JobUnselected: {'identifier': 'learning_gazebo'}
+[0.000379] (-) JobUnselected: {'identifier': 'learning_gazebo'}
+[0.000385] (-) JobUnselected: {'identifier': 'learning_interface'}
+[0.000391] (-) JobUnselected: {'identifier': 'learning_interface'}
+[0.000397] (-) JobUnselected: {'identifier': 'learning_launch'}
+[0.000404] (-) JobUnselected: {'identifier': 'learning_launch'}
+[0.000410] (-) JobUnselected: {'identifier': 'learning_node'}
+[0.000416] (-) JobUnselected: {'identifier': 'learning_node'}
+[0.000422] (-) JobUnselected: {'identifier': 'learning_node_cpp'}
+[0.000428] (-) JobUnselected: {'identifier': 'learning_node_cpp'}
+[0.000438] (-) JobUnselected: {'identifier': 'learning_parameter'}
+[0.000445] (-) JobUnselected: {'identifier': 'learning_parameter'}
+[0.000451] (-) JobUnselected: {'identifier': 'learning_parameter_cpp'}
+[0.000457] (-) JobUnselected: {'identifier': 'learning_parameter_cpp'}
+[0.000463] (-) JobUnselected: {'identifier': 'learning_pkg_c'}
+[0.000469] (-) JobUnselected: {'identifier': 'learning_pkg_c'}
+[0.000476] (-) JobUnselected: {'identifier': 'learning_pkg_python'}
+[0.000482] (-) JobUnselected: {'identifier': 'learning_pkg_python'}
+[0.000488] (-) JobUnselected: {'identifier': 'learning_qos'}
+[0.000494] (-) JobUnselected: {'identifier': 'learning_qos'}
+[0.000505] (-) JobUnselected: {'identifier': 'learning_service'}
+[0.000520] (-) JobUnselected: {'identifier': 'learning_service'}
+[0.000526] (-) JobUnselected: {'identifier': 'learning_service_cpp'}
+[0.000533] (-) JobUnselected: {'identifier': 'learning_service_cpp'}
+[0.000540] (-) JobUnselected: {'identifier': 'learning_tf'}
+[0.000546] (-) JobUnselected: {'identifier': 'learning_tf'}
+[0.000552] (-) JobUnselected: {'identifier': 'learning_topic'}
+[0.000558] (-) JobUnselected: {'identifier': 'learning_topic'}
+[0.000564] (-) JobUnselected: {'identifier': 'learning_topic_cpp'}
+[0.000570] (-) JobUnselected: {'identifier': 'learning_topic_cpp'}
+[0.000577] (-) JobUnselected: {'identifier': 'learning_urdf'}
+[0.000583] (-) JobUnselected: {'identifier': 'learning_urdf'}
+[0.000589] (-) JobUnselected: {'identifier': 'loop_closure'}
+[0.000595] (-) JobUnselected: {'identifier': 'myslam'}
+[0.000602] (-) JobUnselected: {'identifier': 'orb_cv'}
+[0.000608] (-) JobUnselected: {'identifier': 'pose_graph'}
+[0.000615] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000621] (-) JobUnselected: {'identifier': 'useSophus'}
+[0.000627] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000633] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000639] (-) JobUnselected: {'identifier': 'vo1'}
+[0.000646] (-) JobUnselected: {'identifier': 'xpkg_comm'}
+[0.000652] (-) JobUnselected: {'identifier': 'xpkg_demo'}
+[0.000659] (-) JobUnselected: {'identifier': 'xpkg_msgs'}
+[0.000665] (-) JobUnselected: {'identifier': 'xpkg_urdf_mark2_mcnm'}
+[0.000671] (-) JobUnselected: {'identifier': 'xpkg_vehicle'}
+[0.000678] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.000688] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.004820] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.004891] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/leomorningrain/code/ws01_plumbing/src/base_interfaces_demo', '-DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/install/base_interfaces_demo'], 'cwd': '/home/leomorningrain/code/build/base_interfaces_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib:/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1986'), ('SYSTEMD_EXEC_PID', '2434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3915'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('JOURNAL_STREAM', '8:29693'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2371,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2371'), ('INVOCATION_ID', 'b26af2d3797348308a731f6d35c3d5ad'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-03bcac7b9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leomorningrain/code/build/base_interfaces_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068252] (base_interfaces_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099669] (-) TimerEvent: {}
+[0.141702] (base_interfaces_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.147315] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199791] (-) TimerEvent: {}
+[0.223069] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.229468] (base_interfaces_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.231065] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231501] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.234968] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299989] (-) TimerEvent: {}
+[0.319075] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.322964] (base_interfaces_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.323114] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.323319] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.328000] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400149] (-) TimerEvent: {}
+[0.407680] (base_interfaces_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.459533] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.461368] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.464991] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.488076] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500264] (-) TimerEvent: {}
+[0.600571] (-) TimerEvent: {}
+[0.632103] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700704] (-) TimerEvent: {}
+[0.757234] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800889] (-) TimerEvent: {}
+[0.897425] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901049] (-) TimerEvent: {}
+[0.909254] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.910123] (base_interfaces_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.925403] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.925571] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.925608] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.925638] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.937181] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.954778] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.958978] (base_interfaces_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.970636] (base_interfaces_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.971688] (base_interfaces_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/leomorningrain/code/build/base_interfaces_demo\n'}
+[0.975632] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.976440] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.976454] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leomorningrain/code/build/base_interfaces_demo', '--', '-j32', '-l32'], 'cwd': '/home/leomorningrain/code/build/base_interfaces_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib:/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1986'), ('SYSTEMD_EXEC_PID', '2434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3915'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('JOURNAL_STREAM', '8:29693'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2371,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2371'), ('INVOCATION_ID', 'b26af2d3797348308a731f6d35c3d5ad'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-03bcac7b9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leomorningrain/code/build/base_interfaces_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.000884] (base_interfaces_demo) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.001052] (-) TimerEvent: {}
+[1.006472] (base_interfaces_demo) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.010768] (base_interfaces_demo) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_base_interfaces_demo\n'}
+[1.101257] (-) TimerEvent: {}
+[1.131089] (base_interfaces_demo) StdoutLine: {'line': b'running egg_info\n'}
+[1.131701] (base_interfaces_demo) StdoutLine: {'line': b'creating base_interfaces_demo.egg-info\n'}
+[1.131906] (base_interfaces_demo) StdoutLine: {'line': b'writing base_interfaces_demo.egg-info/PKG-INFO\n'}
+[1.131988] (base_interfaces_demo) StdoutLine: {'line': b'writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt\n'}
+[1.132052] (base_interfaces_demo) StdoutLine: {'line': b'writing top-level names to base_interfaces_demo.egg-info/top_level.txt\n'}
+[1.132111] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[1.133482] (base_interfaces_demo) StdoutLine: {'line': b"reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[1.133717] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[1.135000] (base_interfaces_demo) StdoutLine: {'line': b'[  6%] Built target base_interfaces_demo__cpp\n'}
+[1.141954] (base_interfaces_demo) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.142147] (base_interfaces_demo) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.142224] (base_interfaces_demo) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o\x1b[0m\n'}
+[1.142289] (base_interfaces_demo) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.153720] (base_interfaces_demo) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_base_interfaces_demo_egg\n'}
+[1.179376] (base_interfaces_demo) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so\x1b[0m\n'}
+[1.201467] (-) TimerEvent: {}
+[1.205226] (base_interfaces_demo) StdoutLine: {'line': b'[ 22%] Built target base_interfaces_demo__rosidl_generator_c\n'}
+[1.212534] (base_interfaces_demo) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.212732] (base_interfaces_demo) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.212804] (base_interfaces_demo) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.283695] (base_interfaces_demo) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[1.294082] (base_interfaces_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[1.301371] (base_interfaces_demo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[1.301600] (-) TimerEvent: {}
+[1.365916] (base_interfaces_demo) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[1.381278] (base_interfaces_demo) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[1.381502] (base_interfaces_demo) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[1.387942] (base_interfaces_demo) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.401786] (-) TimerEvent: {}
+[1.405407] (base_interfaces_demo) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.418668] (base_interfaces_demo) StdoutLine: {'line': b'[ 58%] Built target base_interfaces_demo__rosidl_typesupport_c\n'}
+[1.428995] (base_interfaces_demo) StdoutLine: {'line': b'[ 58%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c\n'}
+[1.465637] (base_interfaces_demo) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.492457] (base_interfaces_demo) StdoutLine: {'line': b'[ 61%] Built target base_interfaces_demo__rosidl_typesupport_cpp\n'}
+[1.501949] (-) TimerEvent: {}
+[1.536023] (base_interfaces_demo) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.543718] (base_interfaces_demo) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.574068] (base_interfaces_demo) StdoutLine: {'line': b'[ 67%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp\n'}
+[1.574250] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.587997] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[1.602050] (-) TimerEvent: {}
+[1.617679] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c\n'}
+[1.630992] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] Built target base_interfaces_demo\n'}
+[1.649584] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.702234] (-) TimerEvent: {}
+[1.790278] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__py\n'}
+[1.800069] (base_interfaces_demo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o\x1b[0m\n'}
+[1.802385] (-) TimerEvent: {}
+[1.859383] (base_interfaces_demo) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\x1b[0m\n'}
+[1.882990] (base_interfaces_demo) StdoutLine: {'line': b'[ 80%] Built target base_interfaces_demo__rosidl_generator_py\n'}
+[1.902606] (-) TimerEvent: {}
+[1.904268] (base_interfaces_demo) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.904528] (base_interfaces_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.904732] (base_interfaces_demo) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.950517] (base_interfaces_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.950653] (base_interfaces_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.950684] (base_interfaces_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.968101] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext\n'}
+[1.968242] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.968272] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[1.974598] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[2.002771] (-) TimerEvent: {}
+[2.019830] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[2.033296] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leomorningrain/code/build/base_interfaces_demo'], 'cwd': '/home/leomorningrain/code/build/base_interfaces_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib:/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1986'), ('SYSTEMD_EXEC_PID', '2434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3915'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('JOURNAL_STREAM', '8:29693'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2371,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2371'), ('INVOCATION_ID', 'b26af2d3797348308a731f6d35c3d5ad'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-03bcac7b9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leomorningrain/code/build/base_interfaces_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.039951] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.040158] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo\n'}
+[2.040197] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[2.040226] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[2.040258] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h\n'}
+[2.040340] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[2.040366] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h\n'}
+[2.040391] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h\n'}
+[2.040435] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h\n'}
+[2.040459] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c\n'}
+[2.040482] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.040507] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh\n'}
+[2.040531] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv\n'}
+[2.040577] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so\n'}
+[2.040601] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""\n'}
+[2.040630] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[2.040658] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[2.040750] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.040794] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[2.040831] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[2.040858] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[2.040883] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.040910] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[2.040947] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[2.040995] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.041023] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[2.041049] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[2.041146] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c\n'}
+[2.041206] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\n'}
+[2.041318] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.041349] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so\n'}
+[2.041432] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""\n'}
+[2.041460] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[2.041495] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[2.041533] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp\n'}
+[2.041554] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[2.041577] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp\n'}
+[2.041612] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp\n'}
+[2.041635] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp\n'}
+[2.041667] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[2.041688] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[2.041711] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[2.041732] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.041763] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps\n'}
+[2.041798] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.041821] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.041867] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.041899] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[2.041936] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[2.041960] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[2.041982] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.042017] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp\n'}
+[2.042040] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[2.042090] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.042120] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so\n'}
+[2.042203] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[2.042235] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh\n'}
+[2.042264] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv\n'}
+[2.042294] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info\n'}
+[2.042337] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.042369] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.042398] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.042429] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.042463] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo\n'}
+[2.042494] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.042533] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.042573] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.042607] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.042638] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg\n'}
+[2.042669] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c\n'}
+[2.042697] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py\n'}
+[2.042727] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py\n'}
+[2.042755] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c\n'}
+[2.042786] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[2.042816] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.042845] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py\n'}
+[2.061220] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...\n"}
+[2.061284] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...\n"}
+[2.061310] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...\n"}
+[2.061332] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...\n"}
+[2.061354] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...\n"}
+[2.063439] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.063496] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.063540] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.063576] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.063662] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.063782] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.063819] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[2.063848] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""\n'}
+[2.063870] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl\n'}
+[2.063902] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg\n'}
+[2.063936] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[2.063984] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[2.064022] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[2.064059] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[2.064093] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[2.064132] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[2.064171] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[2.064204] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[2.064247] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[2.064301] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[2.064379] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[2.064402] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[2.064457] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake\n'}
+[2.064490] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.064568] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.064591] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.064625] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.064646] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.064677] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake\n'}
+[2.064707] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.064735] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake\n'}
+[2.064779] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.064820] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.064858] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.064895] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.064936] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake\n'}
+[2.064973] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.065013] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake\n'}
+[2.065051] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.065088] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[2.065124] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.065159] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.065197] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.065235] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.065276] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.065313] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.065351] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[2.065381] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[2.065414] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[2.066778] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[2.102887] (-) TimerEvent: {}
+[2.156411] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[2.157006] (-) EventReactorShutdown: {}

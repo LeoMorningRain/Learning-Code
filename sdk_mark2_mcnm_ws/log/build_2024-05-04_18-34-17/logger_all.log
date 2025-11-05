@@ -1,0 +1,541 @@
+[0.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.046s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x705a61028a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x705a61111660>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x705a61111660>>)
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.118s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leomorningrain/code/sdk_mark2_mcnm_ws'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_comm) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base/xpkg_comm' with type 'ros.ament_cmake' and name 'xpkg_comm'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/xpkg_msgs) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base/xpkg_msgs' with type 'ros.ament_cmake' and name 'xpkg_msgs'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/demo_general_chassis) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo/demo_general_chassis' with type 'ros.ament_cmake' and name 'xpkg_demo'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/xpkg_vehicle) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivers/xpkg_vehicle' with type 'ros.ament_cmake' and name 'xpkg_vehicle'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/xpkg_urdf_mark2_mcnm) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf/xpkg_urdf_mark2_mcnm' with type 'ros.ament_cmake' and name 'xpkg_urdf_mark2_mcnm'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/auth) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/bus) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/driver) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/install) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(xone/transport) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.162s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/leomorningrain/code/sdk_mark2_mcnm_ws/install
+[0.162s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/humble
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'xpkg_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo', 'merge_install': False, 'path': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis', 'symlink_install': False, 'test_result_base': None}
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'xpkg_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs', 'merge_install': False, 'path': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'cmake_clean_first' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'cmake_force_configure' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'ament_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'xpkg_urdf_mark2_mcnm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'xpkg_urdf_mark2_mcnm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm', 'merge_install': False, 'path': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm', 'symlink_install': False, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'xpkg_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm', 'merge_install': False, 'path': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm', 'symlink_install': False, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'xpkg_vehicle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'xpkg_vehicle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle', 'merge_install': False, 'path': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle', 'symlink_install': False, 'test_result_base': None}
+[0.182s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs' with build type 'ament_cmake'
+[0.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs'
+[0.184s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.186s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis' with build type 'ament_cmake'
+[0.186s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/demo/demo_general_chassis'
+[0.186s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/urdf/xpkg_urdf_mark2_mcnm'
+[0.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs -- -j32 -l32
+[0.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo -- -j32 -l32
+[0.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm -- -j32 -l32
+[0.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo -- -j32 -l32
+[0.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm -- -j32 -l32
+[0.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo
+[0.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm
+[0.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_demo)
+[0.240s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo' for CMake module files
+[0.241s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo' for CMake config files
+[0.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_demo', 'cmake_prefix_path')
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/hook/cmake_prefix_path.ps1'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/hook/cmake_prefix_path.dsv'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/hook/cmake_prefix_path.sh'
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/bin'
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/lib/pkgconfig/xpkg_demo.pc'
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/lib/python3.10/site-packages'
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/bin'
+[0.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.sh'
+[0.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.bash'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.zsh'
+[0.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/colcon-core/packages/xpkg_demo)
+[0.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_urdf_mark2_mcnm)
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm' for CMake module files
+[0.247s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm' for CMake config files
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm
+[0.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_urdf_mark2_mcnm', 'cmake_prefix_path')
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.sh'
+[0.248s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/bin'
+[0.248s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/lib/pkgconfig/xpkg_urdf_mark2_mcnm.pc'
+[0.248s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/lib/python3.10/site-packages'
+[0.248s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/bin'
+[0.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.ps1'
+[0.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.dsv'
+[0.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.bash'
+[0.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.zsh'
+[0.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/colcon-core/packages/xpkg_urdf_mark2_mcnm)
+[0.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_demo)
+[0.256s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo' for CMake module files
+[0.256s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo' for CMake config files
+[0.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_demo', 'cmake_prefix_path')
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/hook/cmake_prefix_path.ps1'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/hook/cmake_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/hook/cmake_prefix_path.sh'
+[0.257s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/bin'
+[0.257s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/lib/pkgconfig/xpkg_demo.pc'
+[0.257s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/lib/python3.10/site-packages'
+[0.257s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/bin'
+[0.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.ps1'
+[0.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.dsv'
+[0.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.sh'
+[0.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.bash'
+[0.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.zsh'
+[0.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/colcon-core/packages/xpkg_demo)
+[0.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_urdf_mark2_mcnm)
+[0.259s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm' for CMake module files
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm' for CMake config files
+[0.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_urdf_mark2_mcnm', 'cmake_prefix_path')
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.ps1'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.dsv'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/hook/cmake_prefix_path.sh'
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/bin'
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/lib/pkgconfig/xpkg_urdf_mark2_mcnm.pc'
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/lib/python3.10/site-packages'
+[0.261s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/bin'
+[0.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.ps1'
+[0.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.dsv'
+[0.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.sh'
+[0.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.bash'
+[0.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.zsh'
+[0.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/colcon-core/packages/xpkg_urdf_mark2_mcnm)
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs -- -j32 -l32
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs
+[0.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_msgs)
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs' for CMake module files
+[0.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs' for CMake config files
+[0.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_msgs', 'cmake_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/cmake_prefix_path.ps1'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/cmake_prefix_path.dsv'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/cmake_prefix_path.sh'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib'
+[0.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_msgs', 'ld_library_path_lib')
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/ld_library_path_lib.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/ld_library_path_lib.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/ld_library_path_lib.sh'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/bin'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/pkgconfig/xpkg_msgs.pc'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/python3.10/site-packages'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/bin'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.ps1'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.dsv'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.sh'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.bash'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.zsh'
+[0.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/colcon-core/packages/xpkg_msgs)
+[0.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_msgs)
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs' for CMake module files
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs' for CMake config files
+[0.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_msgs', 'cmake_prefix_path')
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/cmake_prefix_path.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/cmake_prefix_path.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/cmake_prefix_path.sh'
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib'
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_msgs', 'ld_library_path_lib')
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/ld_library_path_lib.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/ld_library_path_lib.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/hook/ld_library_path_lib.sh'
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/bin'
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/pkgconfig/xpkg_msgs.pc'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/python3.10/site-packages'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/bin'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.ps1'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.dsv'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.sh'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.bash'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.zsh'
+[0.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/colcon-core/packages/xpkg_msgs)
+[0.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm' with build type 'ament_cmake'
+[0.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.489s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle' with build type 'ament_cmake'
+[0.489s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm -- -j32 -l32
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle -- -j32 -l32
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm -- -j32 -l32
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle -- -j32 -l32
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle
+[0.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_vehicle)
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle' for CMake module files
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle' for CMake config files
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_vehicle', 'cmake_prefix_path')
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/hook/cmake_prefix_path.ps1'
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/hook/cmake_prefix_path.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/hook/cmake_prefix_path.sh'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/bin'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib/pkgconfig/xpkg_vehicle.pc'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib/python3.10/site-packages'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/bin'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.sh'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.bash'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.zsh'
+[0.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/colcon-core/packages/xpkg_vehicle)
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm
+[0.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_comm)
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm' for CMake module files
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm:/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm' for CMake config files
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_comm', 'cmake_prefix_path')
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/hook/cmake_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/hook/cmake_prefix_path.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/hook/cmake_prefix_path.sh'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/bin'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib/pkgconfig/xpkg_comm.pc'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib/python3.10/site-packages'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/bin'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.sh'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.bash'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.zsh'
+[0.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/colcon-core/packages/xpkg_comm)
+[0.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_vehicle)
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle' for CMake module files
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle' for CMake config files
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_vehicle', 'cmake_prefix_path')
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/hook/cmake_prefix_path.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/hook/cmake_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/hook/cmake_prefix_path.sh'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/bin'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib/pkgconfig/xpkg_vehicle.pc'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib/python3.10/site-packages'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/bin'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.dsv'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.sh'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.bash'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.zsh'
+[0.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/colcon-core/packages/xpkg_vehicle)
+[0.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xpkg_comm)
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm' for CMake module files
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm' for CMake config files
+[0.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('xpkg_comm', 'cmake_prefix_path')
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/hook/cmake_prefix_path.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/hook/cmake_prefix_path.sh'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/bin'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib/pkgconfig/xpkg_comm.pc'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib/python3.10/site-packages'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/bin'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.bash'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.zsh'
+[0.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/colcon-core/packages/xpkg_comm)
+[0.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.596s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.600s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.600s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.600s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.604s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.604s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/local_setup.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/_local_setup_util_ps1.py'
+[0.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/setup.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/local_setup.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/_local_setup_util_sh.py'
+[0.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/setup.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/local_setup.bash'
+[0.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/setup.bash'
+[0.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/local_setup.zsh'
+[0.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/setup.zsh'

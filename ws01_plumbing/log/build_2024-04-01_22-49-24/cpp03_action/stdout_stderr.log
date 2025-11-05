@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[ 50%] Built target demo01_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::result_callback(const rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::WrappedResult&)[m[K’:
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:139:30:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Krclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::WrappedResult::code[m[K’ in read-only object
+  139 |         else if ([01;31m[Kresult.code = rclcpp_action::ResultCode::CANCELED[m[K)
+      |                  [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leomorningrain/code/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:143:30:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Krclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::WrappedResult::code[m[K’ in read-only object
+  143 |         else if ([01;31m[Kresult.code = rclcpp_action::ResultCode::UNKNOWN[m[K)
+      |                  [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:76: CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

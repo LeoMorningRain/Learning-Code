@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware
+[0.016s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.080s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.084s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.101s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.103s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.106s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.526s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.527s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.546s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.553s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.568s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.573s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.741s] -- Configuring done
+[0.752s] -- Generating done
+[0.753s] -- Build files have been written to: /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware
+[0.758s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/ros2-mecanum-bot/src/ros2-mecanum-bot/mecanumbot_hardware -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware
+[0.758s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware -- -j32 -l32
+[0.781s] [35m[1mConsolidate compiler generated dependencies of target mecanumbot_hardware[0m
+[0.792s] [100%] Built target mecanumbot_hardware
+[0.798s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware -- -j32 -l32
+[0.814s] Invoking command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware
+[0.818s] -- Install configuration: ""
+[0.818s] -- Execute custom install script
+[0.818s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware//mecanumbot_hardware.xml
+[0.818s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/lib/libmecanumbot_hardware.so
+[0.818s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware.hpp
+[0.818s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware_compiler.h
+[0.818s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_serial_port.hpp
+[0.818s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.sh
+[0.818s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.dsv
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/package_run_dependencies/mecanumbot_hardware
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/parent_prefix_path/mecanumbot_hardware
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.sh
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.dsv
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.sh
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.dsv
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.bash
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.sh
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.zsh
+[0.819s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.dsv
+[0.819s] -- Symlinking: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/packages/mecanumbot_hardware
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mecanumbot_hardware
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig.cmake
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig-version.cmake
+[0.824s] -- Up-to-date symlink: /home/leomorningrain/code/ros2-mecanum-bot/install/mecanumbot_hardware/share/mecanumbot_hardware/package.xml
+[0.826s] Invoked command in '/home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/ros2-mecanum-bot/build/mecanumbot_hardware

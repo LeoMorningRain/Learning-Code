@@ -1,0 +1,8 @@
+{
+  "package_name": "xpkg_msgs",
+  "non_idl_tuples": [
+    "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs:msg/XmsgCommData.msg",
+    "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs:msg/XmsgDeviceList.msg",
+    "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_msgs:msg/XmsgDevice.msg"
+  ]
+}

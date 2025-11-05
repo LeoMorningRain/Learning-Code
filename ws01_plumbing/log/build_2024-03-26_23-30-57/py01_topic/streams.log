@@ -1,0 +1,24 @@
+[0.244s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py01_topic/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build install --record /home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.338s] running egg_info
+[0.339s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.339s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.339s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.339s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.339s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.340s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.340s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.340s] running build
+[0.340s] running build_py
+[0.340s] running install
+[0.340s] running install_lib
+[0.341s] running install_data
+[0.341s] running install_egg_info
+[0.342s] removing '/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.342s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.342s] running install_scripts
+[0.352s] Installing demo01_talker_str_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.352s] Installing demo02_listener_str_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.352s] Installing demo03_talker_stu_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.352s] Installing demo04_listener_stu_py script to /home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.352s] writing list of installed files to '/home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log'
+[0.361s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py01_topic/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/leomorningrain/code/ws01_plumbing/build/py01_topic/build install --record /home/leomorningrain/code/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

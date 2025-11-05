@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xpkg_msgs/msg/XmsgCommData.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module xpkg_msgs {
+  module msg {
+    typedef uint8 uint8__8[8];
+    struct XmsgCommData {
+      uint8 id_c;
+
+      uint8 id_t;
+
+      uint8 id_n;
+
+      uint8 id_f;
+
+      uint8 len;
+
+      uint8__8 data;
+
+      builtin_interfaces::msg::Time time;
+    };
+  };
+};

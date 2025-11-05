@@ -1,0 +1,4 @@
+source;share/xpkg_urdf_mark2_mcnm/local_setup.bash
+source;share/xpkg_urdf_mark2_mcnm/local_setup.dsv
+source;share/xpkg_urdf_mark2_mcnm/local_setup.sh
+source;share/xpkg_urdf_mark2_mcnm/local_setup.zsh

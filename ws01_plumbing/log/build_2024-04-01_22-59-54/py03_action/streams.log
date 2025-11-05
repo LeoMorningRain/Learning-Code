@@ -1,0 +1,40 @@
+[0.262s] Invoking command in '/home/leomorningrain/code/ws01_plumbing/src/py03_action': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py03_action/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/leomorningrain/code/ws01_plumbing/build/py03_action/build install --record /home/leomorningrain/code/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data
+[0.358s] running egg_info
+[0.358s] creating ../../build/py03_action/py03_action.egg-info
+[0.358s] writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+[0.358s] writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+[0.358s] writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+[0.358s] writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+[0.358s] writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+[0.358s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.359s] reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.359s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.359s] running build
+[0.359s] running build_py
+[0.360s] creating /home/leomorningrain/code/ws01_plumbing/build/py03_action/build
+[0.360s] creating /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib
+[0.360s] creating /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib/py03_action
+[0.360s] copying py03_action/demo02_action_client_py.py -> /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib/py03_action
+[0.360s] copying py03_action/demo01_action_server_py.py -> /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib/py03_action
+[0.360s] copying py03_action/__init__.py -> /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib/py03_action
+[0.360s] running install
+[0.360s] running install_lib
+[0.360s] creating /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[0.360s] copying /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib/py03_action/demo02_action_client_py.py -> /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[0.360s] copying /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib/py03_action/demo01_action_server_py.py -> /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[0.360s] copying /home/leomorningrain/code/ws01_plumbing/build/py03_action/build/lib/py03_action/__init__.py -> /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[0.360s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo02_action_client_py.py to demo02_action_client_py.cpython-310.pyc
+[0.360s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo01_action_server_py.py to demo01_action_server_py.cpython-310.pyc
+[0.360s] byte-compiling /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/__init__.py to __init__.cpython-310.pyc
+[0.360s] running install_data
+[0.361s] creating /home/leomorningrain/code/ws01_plumbing/install/py03_action/share/ament_index
+[0.361s] creating /home/leomorningrain/code/ws01_plumbing/install/py03_action/share/ament_index/resource_index
+[0.361s] creating /home/leomorningrain/code/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages
+[0.361s] copying resource/py03_action -> /home/leomorningrain/code/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages
+[0.361s] copying package.xml -> /home/leomorningrain/code/ws01_plumbing/install/py03_action/share/py03_action
+[0.361s] running install_egg_info
+[0.362s] Copying ../../build/py03_action/py03_action.egg-info to /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+[0.362s] running install_scripts
+[0.371s] Installing demo01_action_server_py script to /home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/py03_action
+[0.371s] writing list of installed files to '/home/leomorningrain/code/ws01_plumbing/build/py03_action/install.log'
+[0.381s] Invoked command in '/home/leomorningrain/code/ws01_plumbing/src/py03_action' returned '0': CMAKE_PREFIX_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo:/home/leomorningrain/code/ws01_plumbing/install/cpp03_action LD_LIBRARY_PATH=/home/leomorningrain/code/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/leomorningrain/code/ws01_plumbing/build/py03_action/prefix_override:/home/leomorningrain/code/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/leomorningrain/code/ws01_plumbing/build/py03_action/build install --record /home/leomorningrain/code/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data

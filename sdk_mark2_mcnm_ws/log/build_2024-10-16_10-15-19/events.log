@@ -1,0 +1,981 @@
+[0.000000] (-) TimerEvent: {}
+[0.000592] (xpkg_demo) JobQueued: {'identifier': 'xpkg_demo', 'dependencies': OrderedDict()}
+[0.000900] (xpkg_msgs) JobQueued: {'identifier': 'xpkg_msgs', 'dependencies': OrderedDict()}
+[0.000972] (xpkg_urdf_mark2_mcnm) JobQueued: {'identifier': 'xpkg_urdf_mark2_mcnm', 'dependencies': OrderedDict()}
+[0.001000] (xpkg_comm) JobQueued: {'identifier': 'xpkg_comm', 'dependencies': OrderedDict([('xpkg_msgs', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs')])}
+[0.001030] (xpkg_vehicle) JobQueued: {'identifier': 'xpkg_vehicle', 'dependencies': OrderedDict([('xpkg_msgs', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs')])}
+[0.001059] (xpkg_msgs) JobStarted: {'identifier': 'xpkg_msgs'}
+[0.008926] (xpkg_demo) JobStarted: {'identifier': 'xpkg_demo'}
+[0.013811] (xpkg_urdf_mark2_mcnm) JobStarted: {'identifier': 'xpkg_urdf_mark2_mcnm'}
+[0.021481] (xpkg_msgs) JobProgress: {'identifier': 'xpkg_msgs', 'progress': 'cmake'}
+[0.024454] (xpkg_msgs) JobProgress: {'identifier': 'xpkg_msgs', 'progress': 'build'}
+[0.024921] (xpkg_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs', '--', '-j32', '-l32'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033248] (xpkg_demo) JobProgress: {'identifier': 'xpkg_demo', 'progress': 'cmake'}
+[0.035948] (xpkg_demo) JobProgress: {'identifier': 'xpkg_demo', 'progress': 'build'}
+[0.036976] (xpkg_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo', '--', '-j32', '-l32'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046774] (xpkg_urdf_mark2_mcnm) JobProgress: {'identifier': 'xpkg_urdf_mark2_mcnm', 'progress': 'cmake'}
+[0.048986] (xpkg_urdf_mark2_mcnm) JobProgress: {'identifier': 'xpkg_urdf_mark2_mcnm', 'progress': 'build'}
+[0.052175] (xpkg_urdf_mark2_mcnm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm', '--', '-j32', '-l32'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098967] (-) TimerEvent: {}
+[0.110009] (xpkg_msgs) StdoutLine: {'line': b'-- Your ROS version is ROS2\n'}
+[0.110755] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Your ROS version is ROS2\n'}
+[0.111118] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.111312] (xpkg_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.111581] (xpkg_demo) StdoutLine: {'line': b'-- Your ROS version is ROS2\n'}
+[0.111809] (xpkg_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199342] (-) TimerEvent: {}
+[0.300301] (-) TimerEvent: {}
+[0.327969] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.328842] (xpkg_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.329294] (xpkg_msgs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400709] (-) TimerEvent: {}
+[0.417803] (xpkg_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.419797] (xpkg_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.423951] (xpkg_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.424668] (xpkg_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.444679] (xpkg_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.445823] (xpkg_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.491699] (xpkg_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.492787] (xpkg_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500984] (-) TimerEvent: {}
+[0.540026] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.547700] (xpkg_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.548706] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Generating done\n'}
+[0.551534] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm\n'}
+[0.553867] (xpkg_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601243] (-) TimerEvent: {}
+[0.616247] (xpkg_urdf_mark2_mcnm) CommandEnded: {'returncode': 0}
+[0.686795] (xpkg_urdf_mark2_mcnm) JobProgress: {'identifier': 'xpkg_urdf_mark2_mcnm', 'progress': 'install'}
+[0.701546] (-) TimerEvent: {}
+[0.714461] (xpkg_urdf_mark2_mcnm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_urdf_mark2_mcnm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.734142] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.735784] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/ament_index/resource_index/package_run_dependencies/xpkg_urdf_mark2_mcnm\n'}
+[0.736603] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/ament_index/resource_index/parent_prefix_path/xpkg_urdf_mark2_mcnm\n'}
+[0.737081] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/ament_prefix_path.sh\n'}
+[0.738536] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/ament_prefix_path.dsv\n'}
+[0.739481] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/path.sh\n'}
+[0.740732] (xpkg_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.741083] (xpkg_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.741345] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/environment/path.dsv\n'}
+[0.741640] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.bash\n'}
+[0.742789] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.sh\n'}
+[0.743374] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.zsh\n'}
+[0.744839] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/local_setup.dsv\n'}
+[0.745371] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.dsv\n'}
+[0.746769] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/ament_index/resource_index/packages/xpkg_urdf_mark2_mcnm\n'}
+[0.747675] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/cmake/xpkg_urdf_mark2_mcnmConfig.cmake\n'}
+[0.751647] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/cmake/xpkg_urdf_mark2_mcnmConfig-version.cmake\n'}
+[0.752190] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/package.xml\n'}
+[0.752537] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config\n'}
+[0.753422] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS2\n'}
+[0.755314] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS2/urdf.rviz\n'}
+[0.756132] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS1\n'}
+[0.756568] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/config/ROS1/urdf.rviz\n'}
+[0.757155] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch\n'}
+[0.757543] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS2\n'}
+[0.758266] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS2/simulate.launch.py\n'}
+[0.758679] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS2/display.launch.py\n'}
+[0.759325] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS1\n'}
+[0.759856] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS1/simulate.launch\n'}
+[0.760138] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/launch/ROS1/display.launch\n'}
+[0.761284] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes\n'}
+[0.761753] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/RightFrontWheel_Link.STL\n'}
+[0.762299] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/LeftFrontWheel_Link.STL\n'}
+[0.762841] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/Blue3DPrint_Link.STL\n'}
+[0.763188] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/Body_Link.STL\n'}
+[0.763909] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/base_link.STL\n'}
+[0.764927] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/LeftBackWheel_Link.STL\n'}
+[0.765588] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/Black3DPrint_Link.STL\n'}
+[0.766214] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/meshes/RightBackWheel_Link.STL\n'}
+[0.767163] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf\n'}
+[0.769417] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf/model.urdf\n'}
+[0.769877] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf/sim_base.xacro\n'}
+[0.770219] (xpkg_urdf_mark2_mcnm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_urdf_mark2_mcnm/share/xpkg_urdf_mark2_mcnm/urdf/simplified_model.xacro\n'}
+[0.771458] (xpkg_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.771744] (xpkg_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.772264] (xpkg_urdf_mark2_mcnm) CommandEnded: {'returncode': 0}
+[0.802721] (-) TimerEvent: {}
+[0.897258] (xpkg_urdf_mark2_mcnm) JobEnded: {'identifier': 'xpkg_urdf_mark2_mcnm', 'rc': 0}
+[0.902839] (-) TimerEvent: {}
+[1.003640] (-) TimerEvent: {}
+[1.104678] (-) TimerEvent: {}
+[1.116156] (xpkg_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.117177] (xpkg_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.204899] (-) TimerEvent: {}
+[1.305542] (-) TimerEvent: {}
+[1.406388] (-) TimerEvent: {}
+[1.485102] (xpkg_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.485508] (xpkg_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.506510] (-) TimerEvent: {}
+[1.600145] (xpkg_demo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.604071] (xpkg_demo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.605057] (xpkg_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.605788] (xpkg_demo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.606601] (-) TimerEvent: {}
+[1.607986] (xpkg_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.609399] (xpkg_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.615488] (xpkg_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.617930] (xpkg_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo\n'}
+[1.667708] (xpkg_demo) CommandEnded: {'returncode': 0}
+[1.704883] (xpkg_demo) JobProgress: {'identifier': 'xpkg_demo', 'progress': 'install'}
+[1.705107] (xpkg_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.707560] (-) TimerEvent: {}
+[1.718107] (xpkg_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.718442] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/ament_index/resource_index/package_run_dependencies/xpkg_demo\n'}
+[1.718578] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/ament_index/resource_index/parent_prefix_path/xpkg_demo\n'}
+[1.719109] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/ament_prefix_path.sh\n'}
+[1.719278] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/ament_prefix_path.dsv\n'}
+[1.720201] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/path.sh\n'}
+[1.720807] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/environment/path.dsv\n'}
+[1.720948] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.bash\n'}
+[1.721065] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.sh\n'}
+[1.721170] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.zsh\n'}
+[1.721276] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/local_setup.dsv\n'}
+[1.721377] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.dsv\n'}
+[1.721494] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/ament_index/resource_index/packages/xpkg_demo\n'}
+[1.721617] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/cmake/xpkg_demoConfig.cmake\n'}
+[1.721751] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/cmake/xpkg_demoConfig-version.cmake\n'}
+[1.721866] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/package.xml\n'}
+[1.721961] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2\n'}
+[1.722051] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/config\n'}
+[1.722134] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/config/rviz_vehicle.rviz\n'}
+[1.722209] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/config/joystick.yaml\n'}
+[1.722283] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch\n'}
+[1.722355] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/vehicle_ctrl_map.png\n'}
+[1.722438] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/bringup_basic_ctrl.launch.xml\n'}
+[1.723853] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/joystick.launch.py\n'}
+[1.724062] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/bringup_basic_ctrl.launch.py\n'}
+[1.724628] (xpkg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/__pycache__\n'}
+[1.725355] (xpkg_demo) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_demo/share/xpkg_demo/demo_vehicle/ROS2/launch/__pycache__/joystick.launch.cpython-310.pyc\n'}
+[1.726124] (xpkg_demo) CommandEnded: {'returncode': 0}
+[1.791536] (xpkg_demo) JobEnded: {'identifier': 'xpkg_demo', 'rc': 0}
+[1.807928] (-) TimerEvent: {}
+[1.908663] (-) TimerEvent: {}
+[1.931598] (xpkg_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.008926] (-) TimerEvent: {}
+[2.109454] (-) TimerEvent: {}
+[2.210043] (-) TimerEvent: {}
+[2.310540] (-) TimerEvent: {}
+[2.411177] (-) TimerEvent: {}
+[2.487982] (xpkg_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.511332] (-) TimerEvent: {}
+[2.611897] (-) TimerEvent: {}
+[2.674577] (xpkg_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.697506] (xpkg_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.712178] (-) TimerEvent: {}
+[2.719668] (xpkg_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.719976] (xpkg_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.720108] (xpkg_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.734360] (xpkg_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.745014] (xpkg_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.748503] (xpkg_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.749274] (xpkg_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.749632] (xpkg_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.750851] (xpkg_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.754521] (xpkg_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.795070] (xpkg_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.798683] (xpkg_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs\n'}
+[2.812465] (-) TimerEvent: {}
+[2.833543] (xpkg_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.849523] (xpkg_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.869904] (xpkg_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_xpkg_msgs\n'}
+[2.912710] (-) TimerEvent: {}
+[3.013295] (-) TimerEvent: {}
+[3.113823] (-) TimerEvent: {}
+[3.182762] (xpkg_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.183714] (xpkg_msgs) StdoutLine: {'line': b'writing xpkg_msgs.egg-info/PKG-INFO\n'}
+[3.184054] (xpkg_msgs) StdoutLine: {'line': b'writing dependency_links to xpkg_msgs.egg-info/dependency_links.txt\n'}
+[3.184226] (xpkg_msgs) StdoutLine: {'line': b'writing top-level names to xpkg_msgs.egg-info/top_level.txt\n'}
+[3.189233] (xpkg_msgs) StdoutLine: {'line': b"reading manifest file 'xpkg_msgs.egg-info/SOURCES.txt'\n"}
+[3.190205] (xpkg_msgs) StdoutLine: {'line': b"writing manifest file 'xpkg_msgs.egg-info/SOURCES.txt'\n"}
+[3.214053] (-) TimerEvent: {}
+[3.226701] (xpkg_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_xpkg_msgs_egg\n'}
+[3.314319] (-) TimerEvent: {}
+[3.336037] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.348605] (xpkg_msgs) StdoutLine: {'line': b'[  4%] Built target xpkg_msgs__cpp\n'}
+[3.366193] (xpkg_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_generator_c.dir/rosidl_generator_c/xpkg_msgs/msg/detail/xmsg_comm_data__functions.c.o\x1b[0m\n'}
+[3.367542] (xpkg_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_generator_c.dir/rosidl_generator_c/xpkg_msgs/msg/detail/xmsg_device_list__functions.c.o\x1b[0m\n'}
+[3.368562] (xpkg_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_generator_c.dir/rosidl_generator_c/xpkg_msgs/msg/detail/xmsg_device__functions.c.o\x1b[0m\n'}
+[3.377525] (xpkg_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.378377] (xpkg_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.378971] (xpkg_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.414495] (-) TimerEvent: {}
+[3.515249] (-) TimerEvent: {}
+[3.520784] (xpkg_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libxpkg_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.605035] (xpkg_msgs) StdoutLine: {'line': b'[ 19%] Built target xpkg_msgs__rosidl_generator_c\n'}
+[3.615425] (-) TimerEvent: {}
+[3.629370] (xpkg_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.633266] (xpkg_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.634954] (xpkg_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.715717] (-) TimerEvent: {}
+[3.816531] (-) TimerEvent: {}
+[3.917392] (-) TimerEvent: {}
+[4.018297] (-) TimerEvent: {}
+[4.030858] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.085070] (xpkg_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xpkg_msgs/msg/xmsg_device_list__type_support.cpp.o\x1b[0m\n'}
+[4.086327] (xpkg_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xpkg_msgs/msg/xmsg_device__type_support.cpp.o\x1b[0m\n'}
+[4.087216] (xpkg_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xpkg_msgs/msg/xmsg_comm_data__type_support.cpp.o\x1b[0m\n'}
+[4.118658] (-) TimerEvent: {}
+[4.137532] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.195141] (xpkg_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.cpp.o\x1b[0m\n'}
+[4.196412] (xpkg_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xpkg_msgs/msg/detail/xmsg_device_list__type_support.cpp.o\x1b[0m\n'}
+[4.197508] (xpkg_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xpkg_msgs/msg/detail/xmsg_device__type_support.cpp.o\x1b[0m\n'}
+[4.218874] (-) TimerEvent: {}
+[4.240304] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.290758] (xpkg_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xpkg_msgs/msg/detail/dds_fastrtps/xmsg_comm_data__type_support.cpp.o\x1b[0m\n'}
+[4.291921] (xpkg_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xpkg_msgs/msg/detail/dds_fastrtps/xmsg_device__type_support.cpp.o\x1b[0m\n'}
+[4.292307] (xpkg_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xpkg_msgs/msg/detail/dds_fastrtps/xmsg_device_list__type_support.cpp.o\x1b[0m\n'}
+[4.319317] (-) TimerEvent: {}
+[4.420353] (-) TimerEvent: {}
+[4.521257] (-) TimerEvent: {}
+[4.525598] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.563282] (xpkg_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xpkg_msgs/msg/xmsg_comm_data__type_support.cpp.o\x1b[0m\n'}
+[4.566352] (xpkg_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xpkg_msgs/msg/xmsg_device_list__type_support.cpp.o\x1b[0m\n'}
+[4.573636] (xpkg_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xpkg_msgs/msg/xmsg_device__type_support.cpp.o\x1b[0m\n'}
+[4.621495] (-) TimerEvent: {}
+[4.673382] (xpkg_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libxpkg_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.721368] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.722460] (-) TimerEvent: {}
+[4.770968] (xpkg_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xpkg_msgs/msg/detail/xmsg_device_list__type_support.c.o\x1b[0m\n'}
+[4.772428] (xpkg_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.c.o\x1b[0m\n'}
+[4.774604] (xpkg_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xpkg_msgs/msg/detail/xmsg_device__type_support.c.o\x1b[0m\n'}
+[4.822810] (-) TimerEvent: {}
+[4.827076] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.829292] (xpkg_msgs) StdoutLine: {'line': b'[ 59%] Built target xpkg_msgs__rosidl_typesupport_c\n'}
+[4.889289] (xpkg_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xpkg_msgs/msg/detail/xmsg_comm_data__type_support_c.cpp.o\x1b[0m\n'}
+[4.891517] (xpkg_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xpkg_msgs/msg/detail/xmsg_device_list__type_support_c.cpp.o\x1b[0m\n'}
+[4.900627] (xpkg_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/xpkg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xpkg_msgs/msg/detail/xmsg_device__type_support_c.cpp.o\x1b[0m\n'}
+[4.923095] (-) TimerEvent: {}
+[4.924947] (xpkg_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libxpkg_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.023313] (-) TimerEvent: {}
+[5.050843] (xpkg_msgs) StdoutLine: {'line': b'[ 68%] Built target xpkg_msgs__rosidl_typesupport_introspection_c\n'}
+[5.123651] (-) TimerEvent: {}
+[5.224633] (-) TimerEvent: {}
+[5.289531] (xpkg_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libxpkg_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.324942] (-) TimerEvent: {}
+[5.420957] (xpkg_msgs) StdoutLine: {'line': b'[ 70%] Built target xpkg_msgs__rosidl_typesupport_cpp\n'}
+[5.425198] (-) TimerEvent: {}
+[5.440013] (xpkg_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libxpkg_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.525525] (-) TimerEvent: {}
+[5.626610] (-) TimerEvent: {}
+[5.665190] (xpkg_msgs) StdoutLine: {'line': b'[ 72%] Built target xpkg_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.726936] (-) TimerEvent: {}
+[5.827932] (-) TimerEvent: {}
+[5.839955] (xpkg_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libxpkg_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.928301] (-) TimerEvent: {}
+[5.944730] (xpkg_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libxpkg_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.019455] (xpkg_msgs) StdoutLine: {'line': b'[ 76%] Built target xpkg_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.028576] (-) TimerEvent: {}
+[6.080452] (xpkg_msgs) StdoutLine: {'line': b'[ 76%] Built target xpkg_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.109792] (xpkg_msgs) StdoutLine: {'line': b'[ 76%] Built target xpkg_msgs\n'}
+[6.128876] (-) TimerEvent: {}
+[6.140513] (xpkg_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.229169] (-) TimerEvent: {}
+[6.329876] (-) TimerEvent: {}
+[6.430574] (-) TimerEvent: {}
+[6.531138] (-) TimerEvent: {}
+[6.631694] (-) TimerEvent: {}
+[6.732507] (-) TimerEvent: {}
+[6.833252] (-) TimerEvent: {}
+[6.876629] (xpkg_msgs) StdoutLine: {'line': b'[ 78%] Built target xpkg_msgs__py\n'}
+[6.898331] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_generator_py\x1b[0m\n'}
+[6.929073] (xpkg_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_generator_py.dir/rosidl_generator_py/xpkg_msgs/msg/_xmsg_comm_data_s.c.o\x1b[0m\n'}
+[6.930674] (xpkg_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_generator_py.dir/rosidl_generator_py/xpkg_msgs/msg/_xmsg_device_list_s.c.o\x1b[0m\n'}
+[6.931754] (xpkg_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_generator_py.dir/rosidl_generator_py/xpkg_msgs/msg/_xmsg_device_s.c.o\x1b[0m\n'}
+[6.933560] (-) TimerEvent: {}
+[7.035043] (-) TimerEvent: {}
+[7.136032] (-) TimerEvent: {}
+[7.191552] (xpkg_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xpkg_msgs/libxpkg_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[7.236129] (-) TimerEvent: {}
+[7.239084] (xpkg_msgs) StdoutLine: {'line': b'[ 87%] Built target xpkg_msgs__rosidl_generator_py\n'}
+[7.254143] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.255648] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.255992] (xpkg_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xpkg_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.283483] (xpkg_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.287415] (xpkg_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.289143] (xpkg_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/xpkg_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.336462] (-) TimerEvent: {}
+[7.437025] (-) TimerEvent: {}
+[7.456932] (xpkg_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.457897] (xpkg_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.459118] (xpkg_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.522918] (xpkg_msgs) StdoutLine: {'line': b'[100%] Built target xpkg_msgs__rosidl_typesupport_c__pyext\n'}
+[7.523732] (xpkg_msgs) StdoutLine: {'line': b'[100%] Built target xpkg_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.523989] (xpkg_msgs) StdoutLine: {'line': b'[100%] Built target xpkg_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.537250] (-) TimerEvent: {}
+[7.538511] (xpkg_msgs) CommandEnded: {'returncode': 0}
+[7.637583] (-) TimerEvent: {}
+[7.678375] (xpkg_msgs) JobProgress: {'identifier': 'xpkg_msgs', 'progress': 'install'}
+[7.679588] (xpkg_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.691668] (xpkg_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.691912] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/rosidl_interfaces/xpkg_msgs\n'}
+[7.692023] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs\n'}
+[7.692142] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg\n'}
+[7.692250] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail\n'}
+[7.692330] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__functions.h\n'}
+[7.692675] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.h\n'}
+[7.692781] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__type_support.h\n'}
+[7.693021] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__functions.c\n'}
+[7.693106] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__functions.c\n'}
+[7.693170] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__struct.h\n'}
+[7.693238] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__struct.h\n'}
+[7.693403] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__functions.h\n'}
+[7.693474] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__struct.h\n'}
+[7.693538] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__functions.c\n'}
+[7.693796] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__functions.h\n'}
+[7.693872] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__type_support.h\n'}
+[7.693933] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device.h\n'}
+[7.693997] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.694057] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device_list.h\n'}
+[7.694120] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_comm_data.h\n'}
+[7.694480] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/library_path.sh\n'}
+[7.694666] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/library_path.dsv\n'}
+[7.702229] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_generator_c.so\n'}
+[7.702735] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_generator_c.so" to ""\n'}
+[7.703170] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs\n'}
+[7.703398] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg\n'}
+[7.703518] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.703606] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail\n'}
+[7.704301] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_fastrtps_c.h\n'}
+[7.704454] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_fastrtps_c.h\n'}
+[7.704659] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_fastrtps_c.h\n'}
+[7.704756] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.704845] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.704939] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs\n'}
+[7.705032] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg\n'}
+[7.705216] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device_list.hpp\n'}
+[7.705389] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_device.hpp\n'}
+[7.705559] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/xmsg_comm_data.hpp\n'}
+[7.706344] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail\n'}
+[7.706524] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__builder.hpp\n'}
+[7.706604] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__traits.hpp\n'}
+[7.706693] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__builder.hpp\n'}
+[7.707217] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__struct.hpp\n'}
+[7.707444] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__struct.hpp\n'}
+[7.707581] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__struct.hpp\n'}
+[7.707718] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__builder.hpp\n'}
+[7.707978] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__traits.hpp\n'}
+[7.708091] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__traits.hpp\n'}
+[7.708254] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs\n'}
+[7.708351] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg\n'}
+[7.708443] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail\n'}
+[7.708558] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.708721] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.708790] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.708873] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/dds_fastrtps\n'}
+[7.709218] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.709450] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.709703] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.709825] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs\n'}
+[7.709920] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg\n'}
+[7.710011] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.710251] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail\n'}
+[7.710372] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__type_support.c\n'}
+[7.710454] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_introspection_c.h\n'}
+[7.710536] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_introspection_c.h\n'}
+[7.710640] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.c\n'}
+[7.710747] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__type_support.c\n'}
+[7.710850] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_introspection_c.h\n'}
+[7.711007] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.711119] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.711285] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_c.so\n'}
+[7.711418] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.711601] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs\n'}
+[7.711711] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg\n'}
+[7.711836] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail\n'}
+[7.712059] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__type_support.cpp\n'}
+[7.712183] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.712441] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__type_support.cpp\n'}
+[7.712666] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device_list__type_support.cpp\n'}
+[7.712805] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_comm_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.713085] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/include/xpkg_msgs/xpkg_msgs/msg/detail/xmsg_device__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.713222] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.713471] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.713706] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_cpp.so\n'}
+[7.713843] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.713987] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/pythonpath.sh\n'}
+[7.714871] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/pythonpath.dsv\n'}
+[7.715675] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info\n'}
+[7.715928] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[7.716094] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[7.716244] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.716400] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.716563] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs\n'}
+[7.716710] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.716868] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.717017] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.717178] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.717346] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg\n'}
+[7.717516] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_comm_data_s.c\n'}
+[7.718029] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_comm_data.py\n'}
+[7.718178] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device_s.c\n'}
+[7.718270] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/__init__.py\n'}
+[7.718347] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device_list.py\n'}
+[7.718420] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device.py\n'}
+[7.718489] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device_list_s.c\n'}
+[7.718561] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/libxpkg_msgs__rosidl_generator_py.so\n'}
+[7.718631] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/__init__.py\n'}
+[7.718699] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.718773] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/_xpkg_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.737652] (-) TimerEvent: {}
+[7.762629] (xpkg_msgs) StdoutLine: {'line': b"Listing '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs'...\n"}
+[7.762861] (xpkg_msgs) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/__init__.py'...\n"}
+[7.762942] (xpkg_msgs) StdoutLine: {'line': b"Listing '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg'...\n"}
+[7.763010] (xpkg_msgs) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/__init__.py'...\n"}
+[7.763097] (xpkg_msgs) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_comm_data.py'...\n"}
+[7.763177] (xpkg_msgs) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device.py'...\n"}
+[7.763246] (xpkg_msgs) StdoutLine: {'line': b"Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/msg/_xmsg_device_list.py'...\n"}
+[7.769739] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.770710] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.771494] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.772217] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.772886] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.773167] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages/xpkg_msgs/xpkg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.773839] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_generator_py.so\n'}
+[7.775302] (xpkg_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib/libxpkg_msgs__rosidl_generator_py.so" to ""\n'}
+[7.776159] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgCommData.idl\n'}
+[7.776385] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDeviceList.idl\n'}
+[7.776661] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDevice.idl\n'}
+[7.776900] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgCommData.msg\n'}
+[7.777041] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDeviceList.msg\n'}
+[7.777157] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/msg/XmsgDevice.msg\n'}
+[7.777298] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/package_run_dependencies/xpkg_msgs\n'}
+[7.777746] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/parent_prefix_path/xpkg_msgs\n'}
+[7.777973] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/ament_prefix_path.sh\n'}
+[7.778202] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/ament_prefix_path.dsv\n'}
+[7.778427] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/path.sh\n'}
+[7.778618] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/environment/path.dsv\n'}
+[7.778804] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.bash\n'}
+[7.778929] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.sh\n'}
+[7.779164] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.zsh\n'}
+[7.779294] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/local_setup.dsv\n'}
+[7.779468] (xpkg_msgs) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.dsv\n'}
+[7.779573] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/ament_index/resource_index/packages/xpkg_msgs\n'}
+[7.779681] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_cExport.cmake\n'}
+[7.779783] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.779891] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.779994] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.780113] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.780221] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.780341] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.780457] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.780564] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.780662] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.780773] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.780892] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.781011] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.781121] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.781221] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.781307] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.781391] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/export_xpkg_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.781474] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.781556] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.781774] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.781903] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.782012] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.782117] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.782221] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.782329] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgsConfig.cmake\n'}
+[7.782556] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake/xpkg_msgsConfig-version.cmake\n'}
+[7.782928] (xpkg_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/package.xml\n'}
+[7.785355] (xpkg_msgs) CommandEnded: {'returncode': 0}
+[7.837970] (-) TimerEvent: {}
+[7.938388] (-) TimerEvent: {}
+[7.944468] (xpkg_msgs) JobEnded: {'identifier': 'xpkg_msgs', 'rc': 0}
+[7.946642] (xpkg_comm) JobStarted: {'identifier': 'xpkg_comm'}
+[7.951137] (xpkg_vehicle) JobStarted: {'identifier': 'xpkg_vehicle'}
+[7.959014] (xpkg_comm) JobProgress: {'identifier': 'xpkg_comm', 'progress': 'cmake'}
+[7.960469] (xpkg_comm) JobProgress: {'identifier': 'xpkg_comm', 'progress': 'build'}
+[7.961624] (xpkg_comm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm', '--', '-j32', '-l32'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble')]), 'shell': False}
+[7.977233] (xpkg_vehicle) JobProgress: {'identifier': 'xpkg_vehicle', 'progress': 'cmake'}
+[7.978267] (xpkg_vehicle) JobProgress: {'identifier': 'xpkg_vehicle', 'progress': 'build'}
+[7.978356] (xpkg_vehicle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle', '--', '-j32', '-l32'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble')]), 'shell': False}
+[8.038666] (-) TimerEvent: {}
+[8.057398] (xpkg_comm) StdoutLine: {'line': b'-- Your ROS version is ROS2\n'}
+[8.058798] (xpkg_comm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.081704] (xpkg_vehicle) StdoutLine: {'line': b'-- Your ROS version is ROS2\n'}
+[8.082988] (xpkg_vehicle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.138888] (-) TimerEvent: {}
+[8.239618] (-) TimerEvent: {}
+[8.340457] (-) TimerEvent: {}
+[8.352829] (xpkg_comm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.363724] (xpkg_vehicle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.414506] (xpkg_comm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.418906] (xpkg_comm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.427311] (xpkg_vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.429186] (xpkg_comm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.432036] (xpkg_vehicle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.440768] (-) TimerEvent: {}
+[8.443203] (xpkg_vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.450026] (xpkg_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.460836] (xpkg_vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.472833] (xpkg_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.488494] (xpkg_vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.540942] (-) TimerEvent: {}
+[8.566243] (xpkg_comm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.568257] (xpkg_comm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.579983] (xpkg_vehicle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.583356] (xpkg_vehicle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.641110] (-) TimerEvent: {}
+[8.741749] (-) TimerEvent: {}
+[8.782256] (xpkg_comm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.784412] (xpkg_vehicle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.841931] (-) TimerEvent: {}
+[8.942813] (-) TimerEvent: {}
+[9.030204] (xpkg_vehicle) StdoutLine: {'line': b'-- Found xpkg_msgs: 0.1.0 (/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake)\n'}
+[9.030590] (xpkg_comm) StdoutLine: {'line': b'-- Found xpkg_msgs: 0.1.0 (/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/share/xpkg_msgs/cmake)\n'}
+[9.043074] (-) TimerEvent: {}
+[9.072953] (xpkg_comm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.073628] (xpkg_vehicle) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[9.142428] (xpkg_vehicle) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[9.143158] (-) TimerEvent: {}
+[9.199660] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.204525] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.205802] (xpkg_comm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/../..;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/..;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/.;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/LIB_JSON;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/ROS_INF;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/COMM_INF;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/FUNC;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/proto;/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/nanopb\n'}
+[9.206051] (xpkg_comm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.209923] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.210179] (xpkg_comm) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.210921] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.212281] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.213550] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.218905] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.219201] (xpkg_comm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.220315] (xpkg_comm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.226598] (xpkg_comm) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.243260] (-) TimerEvent: {}
+[9.248104] (xpkg_comm) StdoutLine: {'line': b'-- Generating done\n'}
+[9.251143] (xpkg_comm) StdoutLine: {'line': b'-- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm\n'}
+[9.309430] (xpkg_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xnode_comm\x1b[0m\n'}
+[9.314844] (xpkg_vehicle) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[9.329839] (xpkg_vehicle) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[9.343384] (-) TimerEvent: {}
+[9.360725] (xpkg_comm) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/xnode_comm.cpp.o\x1b[0m\n'}
+[9.363495] (xpkg_comm) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/ROS_INF/ros2_interface.cpp.o\x1b[0m\n'}
+[9.364753] (xpkg_comm) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/COMM_INF/comm_inf_com.cpp.o\x1b[0m\n'}
+[9.366273] (xpkg_comm) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/COMM_INF/comm_inf_tcp.cpp.o\x1b[0m\n'}
+[9.368016] (xpkg_comm) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/xnode_comm.dir/src/COMM_INF/mongoose.c.o\x1b[0m\n'}
+[9.369558] (xpkg_comm) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/xnode_comm.dir/src/FUNC/comm_func.cpp.o\x1b[0m\n'}
+[9.375585] (xpkg_comm) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/xnode_comm.dir/src/proto/hex_bridge_types.pb.c.o\x1b[0m\n'}
+[9.376995] (xpkg_comm) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/xnode_comm.dir/src/proto/hex_bridge.pb.c.o\x1b[0m\n'}
+[9.380546] (xpkg_comm) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/xnode_comm.dir/src/proto/hexstd_can_msg.pb.c.o\x1b[0m\n'}
+[9.382703] (xpkg_comm) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/xnode_comm.dir/src/nanopb/pb_common.c.o\x1b[0m\n'}
+[9.383551] (xpkg_comm) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/xnode_comm.dir/src/nanopb/pb_encode.c.o\x1b[0m\n'}
+[9.384093] (xpkg_comm) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/xnode_comm.dir/src/nanopb/pb_decode.c.o\x1b[0m\n'}
+[9.443648] (-) TimerEvent: {}
+[9.544586] (-) TimerEvent: {}
+[9.645435] (-) TimerEvent: {}
+[9.746737] (-) TimerEvent: {}
+[9.847841] (-) TimerEvent: {}
+[9.948984] (-) TimerEvent: {}
+[10.050195] (-) TimerEvent: {}
+[10.139595] (xpkg_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/src/COMM_INF/comm_inf_com.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> CommINFCOM::COMDataRecv()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.140687] (xpkg_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/src/COMM_INF/comm_inf_com.cpp:254:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.141092] (xpkg_comm) StderrLine: {'line': b'  254 |     struct timeval \x1b[01;35m\x1b[Ktime\x1b[m\x1b[K;\n'}
+[10.141431] (xpkg_comm) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.150334] (-) TimerEvent: {}
+[10.251272] (-) TimerEvent: {}
+[10.351970] (-) TimerEvent: {}
+[10.452654] (-) TimerEvent: {}
+[10.477515] (xpkg_vehicle) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.504156] (xpkg_vehicle) StdoutLine: {'line': b'-- Generating done\n'}
+[10.507107] (xpkg_vehicle) StdoutLine: {'line': b'-- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle\n'}
+[10.552806] (-) TimerEvent: {}
+[10.556992] (xpkg_vehicle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xnode_vehicle\x1b[0m\n'}
+[10.616847] (xpkg_vehicle) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/xnode_vehicle.dir/src/xnode_vehicle.cpp.o\x1b[0m\n'}
+[10.623097] (xpkg_vehicle) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/xnode_vehicle.dir/src/LIB_FILE/lib_file_ini.cpp.o\x1b[0m\n'}
+[10.624148] (xpkg_vehicle) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/xnode_vehicle.dir/src/ROS_INF/ros2_interface.cpp.o\x1b[0m\n'}
+[10.624744] (xpkg_vehicle) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/xnode_vehicle.dir/src/FUNC/vehicle_func.cpp.o\x1b[0m\n'}
+[10.624991] (xpkg_vehicle) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/xnode_vehicle.dir/src/FUNC/vehicle_func_odom.cpp.o\x1b[0m\n'}
+[10.653233] (-) TimerEvent: {}
+[10.754292] (-) TimerEvent: {}
+[10.855097] (-) TimerEvent: {}
+[10.955843] (-) TimerEvent: {}
+[11.056724] (-) TimerEvent: {}
+[11.157702] (-) TimerEvent: {}
+[11.258692] (-) TimerEvent: {}
+[11.359611] (-) TimerEvent: {}
+[11.460468] (-) TimerEvent: {}
+[11.561381] (-) TimerEvent: {}
+[11.662435] (-) TimerEvent: {}
+[11.763435] (-) TimerEvent: {}
+[11.864409] (-) TimerEvent: {}
+[11.965459] (-) TimerEvent: {}
+[12.066399] (-) TimerEvent: {}
+[12.167379] (-) TimerEvent: {}
+[12.268318] (-) TimerEvent: {}
+[12.369200] (-) TimerEvent: {}
+[12.470324] (-) TimerEvent: {}
+[12.571362] (-) TimerEvent: {}
+[12.672448] (-) TimerEvent: {}
+[12.773496] (-) TimerEvent: {}
+[12.874753] (-) TimerEvent: {}
+[12.976006] (-) TimerEvent: {}
+[13.077020] (-) TimerEvent: {}
+[13.178135] (-) TimerEvent: {}
+[13.279255] (-) TimerEvent: {}
+[13.380229] (-) TimerEvent: {}
+[13.481227] (-) TimerEvent: {}
+[13.582225] (-) TimerEvent: {}
+[13.683054] (-) TimerEvent: {}
+[13.783912] (-) TimerEvent: {}
+[13.884627] (-) TimerEvent: {}
+[13.985619] (-) TimerEvent: {}
+[14.086541] (-) TimerEvent: {}
+[14.187299] (-) TimerEvent: {}
+[14.288291] (-) TimerEvent: {}
+[14.389291] (-) TimerEvent: {}
+[14.490292] (-) TimerEvent: {}
+[14.591303] (-) TimerEvent: {}
+[14.692263] (-) TimerEvent: {}
+[14.793131] (-) TimerEvent: {}
+[14.894254] (-) TimerEvent: {}
+[14.995098] (-) TimerEvent: {}
+[15.095868] (-) TimerEvent: {}
+[15.196657] (-) TimerEvent: {}
+[15.297724] (-) TimerEvent: {}
+[15.398765] (-) TimerEvent: {}
+[15.499786] (-) TimerEvent: {}
+[15.600716] (-) TimerEvent: {}
+[15.701733] (-) TimerEvent: {}
+[15.802755] (-) TimerEvent: {}
+[15.904011] (-) TimerEvent: {}
+[16.005168] (-) TimerEvent: {}
+[16.106426] (-) TimerEvent: {}
+[16.207565] (-) TimerEvent: {}
+[16.308544] (-) TimerEvent: {}
+[16.409636] (-) TimerEvent: {}
+[16.510613] (-) TimerEvent: {}
+[16.611479] (-) TimerEvent: {}
+[16.712577] (-) TimerEvent: {}
+[16.813633] (-) TimerEvent: {}
+[16.914474] (-) TimerEvent: {}
+[17.015350] (-) TimerEvent: {}
+[17.116423] (-) TimerEvent: {}
+[17.217322] (-) TimerEvent: {}
+[17.318173] (-) TimerEvent: {}
+[17.418901] (-) TimerEvent: {}
+[17.519846] (-) TimerEvent: {}
+[17.563429] (xpkg_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid VehicleFuncOdom::CalcWithSpeed(double, double, double, double, int, unsigned char)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.564347] (xpkg_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:75:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ktime_last\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.564763] (xpkg_vehicle) StderrLine: {'line': b'   75 |     static double \x1b[01;35m\x1b[Ktime_last\x1b[m\x1b[K = 0.0,dt = 0.0;\n'}
+[17.565156] (xpkg_vehicle) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[17.565505] (xpkg_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:72:115:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krotate_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.566549] (xpkg_vehicle) StderrLine: {'line': b'   72 | void VehicleFuncOdom::CalcWithSpeed(double v_x,double v_y,double v_r,double time_now,int serial_num,\x1b[01;35m\x1b[Kunsigned char rotate_mode\x1b[m\x1b[K)\n'}
+[17.567001] (xpkg_vehicle) StderrLine: {'line': b'      |                                                                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.568483] (xpkg_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid VehicleFuncOdom::CalcWithOdom(double, double, double, double, double, double, int, unsigned char)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.569483] (xpkg_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:173:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ktime_last\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.570104] (xpkg_vehicle) StderrLine: {'line': b'  173 |     static double \x1b[01;35m\x1b[Ktime_last\x1b[m\x1b[K = 0.0,dt = 0.0,d_avg_last = 0.0,d_avg_y_last = 0.0,d_th_last = 0.0;\n'}
+[17.570557] (xpkg_vehicle) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[17.570975] (xpkg_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/src/FUNC/vehicle_func_odom.cpp:170:152:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kparameter \xe2\x80\x98\x1b[01m\x1b[Krotate_mode\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-parameter\x07-Wunused-but-set-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.571423] (xpkg_vehicle) StderrLine: {'line': b'  170 | void VehicleFuncOdom::CalcWithOdom(double v_r,double odom_l,double odom_r,double odom_l_s,double odom_r_s,double time_now,int serial_num,\x1b[01;35m\x1b[Kunsigned char rotate_mode\x1b[m\x1b[K)\n'}
+[17.571869] (xpkg_vehicle) StderrLine: {'line': b'      |                                                                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.620202] (-) TimerEvent: {}
+[17.721289] (-) TimerEvent: {}
+[17.822135] (-) TimerEvent: {}
+[17.923056] (-) TimerEvent: {}
+[18.023858] (-) TimerEvent: {}
+[18.124634] (-) TimerEvent: {}
+[18.225430] (-) TimerEvent: {}
+[18.326365] (-) TimerEvent: {}
+[18.427189] (-) TimerEvent: {}
+[18.528000] (-) TimerEvent: {}
+[18.628971] (-) TimerEvent: {}
+[18.729868] (-) TimerEvent: {}
+[18.830808] (-) TimerEvent: {}
+[18.931956] (-) TimerEvent: {}
+[19.032970] (-) TimerEvent: {}
+[19.133983] (-) TimerEvent: {}
+[19.234913] (-) TimerEvent: {}
+[19.335801] (-) TimerEvent: {}
+[19.436520] (-) TimerEvent: {}
+[19.537233] (-) TimerEvent: {}
+[19.638034] (-) TimerEvent: {}
+[19.738786] (-) TimerEvent: {}
+[19.839583] (-) TimerEvent: {}
+[19.940425] (-) TimerEvent: {}
+[20.041297] (-) TimerEvent: {}
+[20.142631] (-) TimerEvent: {}
+[20.243518] (-) TimerEvent: {}
+[20.344418] (-) TimerEvent: {}
+[20.445373] (-) TimerEvent: {}
+[20.546480] (-) TimerEvent: {}
+[20.647270] (-) TimerEvent: {}
+[20.748021] (-) TimerEvent: {}
+[20.848769] (-) TimerEvent: {}
+[20.949630] (-) TimerEvent: {}
+[21.050709] (-) TimerEvent: {}
+[21.151449] (-) TimerEvent: {}
+[21.252115] (-) TimerEvent: {}
+[21.352676] (-) TimerEvent: {}
+[21.453402] (-) TimerEvent: {}
+[21.554104] (-) TimerEvent: {}
+[21.654784] (-) TimerEvent: {}
+[21.755504] (-) TimerEvent: {}
+[21.856508] (-) TimerEvent: {}
+[21.958448] (-) TimerEvent: {}
+[22.059293] (-) TimerEvent: {}
+[22.160357] (-) TimerEvent: {}
+[22.261391] (-) TimerEvent: {}
+[22.362261] (-) TimerEvent: {}
+[22.463029] (-) TimerEvent: {}
+[22.563849] (-) TimerEvent: {}
+[22.664615] (-) TimerEvent: {}
+[22.765354] (-) TimerEvent: {}
+[22.866084] (-) TimerEvent: {}
+[22.966902] (-) TimerEvent: {}
+[23.067583] (-) TimerEvent: {}
+[23.168228] (-) TimerEvent: {}
+[23.268859] (-) TimerEvent: {}
+[23.369539] (-) TimerEvent: {}
+[23.470325] (-) TimerEvent: {}
+[23.571136] (-) TimerEvent: {}
+[23.671983] (-) TimerEvent: {}
+[23.772673] (-) TimerEvent: {}
+[23.873294] (-) TimerEvent: {}
+[23.973908] (-) TimerEvent: {}
+[24.074499] (-) TimerEvent: {}
+[24.175133] (-) TimerEvent: {}
+[24.275896] (-) TimerEvent: {}
+[24.376669] (-) TimerEvent: {}
+[24.477269] (-) TimerEvent: {}
+[24.578078] (-) TimerEvent: {}
+[24.678847] (-) TimerEvent: {}
+[24.779801] (-) TimerEvent: {}
+[24.881011] (-) TimerEvent: {}
+[24.982273] (-) TimerEvent: {}
+[25.083470] (-) TimerEvent: {}
+[25.184574] (-) TimerEvent: {}
+[25.285669] (-) TimerEvent: {}
+[25.386350] (-) TimerEvent: {}
+[25.487064] (-) TimerEvent: {}
+[25.587845] (-) TimerEvent: {}
+[25.688591] (-) TimerEvent: {}
+[25.789226] (-) TimerEvent: {}
+[25.889907] (-) TimerEvent: {}
+[25.990587] (-) TimerEvent: {}
+[26.091347] (-) TimerEvent: {}
+[26.192036] (-) TimerEvent: {}
+[26.292705] (-) TimerEvent: {}
+[26.393446] (-) TimerEvent: {}
+[26.494132] (-) TimerEvent: {}
+[26.595121] (-) TimerEvent: {}
+[26.696294] (-) TimerEvent: {}
+[26.797203] (-) TimerEvent: {}
+[26.898032] (-) TimerEvent: {}
+[26.998977] (-) TimerEvent: {}
+[27.100064] (-) TimerEvent: {}
+[27.201147] (-) TimerEvent: {}
+[27.302123] (-) TimerEvent: {}
+[27.402654] (-) TimerEvent: {}
+[27.503387] (-) TimerEvent: {}
+[27.604303] (-) TimerEvent: {}
+[27.704902] (-) TimerEvent: {}
+[27.805629] (-) TimerEvent: {}
+[27.906744] (-) TimerEvent: {}
+[28.007808] (-) TimerEvent: {}
+[28.108896] (-) TimerEvent: {}
+[28.209978] (-) TimerEvent: {}
+[28.310887] (-) TimerEvent: {}
+[28.411782] (-) TimerEvent: {}
+[28.512766] (-) TimerEvent: {}
+[28.613755] (-) TimerEvent: {}
+[28.714513] (-) TimerEvent: {}
+[28.815062] (-) TimerEvent: {}
+[28.915536] (-) TimerEvent: {}
+[29.016002] (-) TimerEvent: {}
+[29.116890] (-) TimerEvent: {}
+[29.218050] (-) TimerEvent: {}
+[29.318881] (-) TimerEvent: {}
+[29.419303] (-) TimerEvent: {}
+[29.519729] (-) TimerEvent: {}
+[29.620500] (-) TimerEvent: {}
+[29.721376] (-) TimerEvent: {}
+[29.822056] (-) TimerEvent: {}
+[29.922761] (-) TimerEvent: {}
+[30.023656] (-) TimerEvent: {}
+[30.124359] (-) TimerEvent: {}
+[30.224874] (-) TimerEvent: {}
+[30.325908] (-) TimerEvent: {}
+[30.426790] (-) TimerEvent: {}
+[30.527729] (-) TimerEvent: {}
+[30.628444] (-) TimerEvent: {}
+[30.729346] (-) TimerEvent: {}
+[30.830789] (-) TimerEvent: {}
+[30.931567] (-) TimerEvent: {}
+[31.032312] (-) TimerEvent: {}
+[31.133053] (-) TimerEvent: {}
+[31.233921] (-) TimerEvent: {}
+[31.334596] (-) TimerEvent: {}
+[31.435190] (-) TimerEvent: {}
+[31.535944] (-) TimerEvent: {}
+[31.636741] (-) TimerEvent: {}
+[31.737766] (-) TimerEvent: {}
+[31.838379] (-) TimerEvent: {}
+[31.939154] (-) TimerEvent: {}
+[32.040075] (-) TimerEvent: {}
+[32.141043] (-) TimerEvent: {}
+[32.241882] (-) TimerEvent: {}
+[32.342545] (-) TimerEvent: {}
+[32.443310] (-) TimerEvent: {}
+[32.543989] (-) TimerEvent: {}
+[32.644973] (-) TimerEvent: {}
+[32.745735] (-) TimerEvent: {}
+[32.846381] (-) TimerEvent: {}
+[32.947219] (-) TimerEvent: {}
+[33.048112] (-) TimerEvent: {}
+[33.148915] (-) TimerEvent: {}
+[33.249612] (-) TimerEvent: {}
+[33.350293] (-) TimerEvent: {}
+[33.451139] (-) TimerEvent: {}
+[33.552099] (-) TimerEvent: {}
+[33.652977] (-) TimerEvent: {}
+[33.753765] (-) TimerEvent: {}
+[33.854594] (-) TimerEvent: {}
+[33.904868] (xpkg_comm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable xnode_comm\x1b[0m\n'}
+[33.954977] (-) TimerEvent: {}
+[34.056150] (-) TimerEvent: {}
+[34.157332] (-) TimerEvent: {}
+[34.258479] (-) TimerEvent: {}
+[34.359620] (-) TimerEvent: {}
+[34.460674] (-) TimerEvent: {}
+[34.561791] (-) TimerEvent: {}
+[34.662662] (-) TimerEvent: {}
+[34.763431] (-) TimerEvent: {}
+[34.864189] (-) TimerEvent: {}
+[34.965170] (-) TimerEvent: {}
+[35.066200] (-) TimerEvent: {}
+[35.166974] (-) TimerEvent: {}
+[35.267679] (-) TimerEvent: {}
+[35.302747] (xpkg_comm) StdoutLine: {'line': b'[100%] Built target xnode_comm\n'}
+[35.329482] (xpkg_comm) CommandEnded: {'returncode': 0}
+[35.367973] (-) TimerEvent: {}
+[35.450229] (xpkg_comm) JobProgress: {'identifier': 'xpkg_comm', 'progress': 'install'}
+[35.452780] (xpkg_comm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_comm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble')]), 'shell': False}
+[35.468304] (-) TimerEvent: {}
+[35.471494] (xpkg_comm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.472268] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/ament_index/resource_index/package_run_dependencies/xpkg_comm\n'}
+[35.472678] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/ament_index/resource_index/parent_prefix_path/xpkg_comm\n'}
+[35.473994] (xpkg_comm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/environment/ament_prefix_path.sh\n'}
+[35.475004] (xpkg_comm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/environment/ament_prefix_path.dsv\n'}
+[35.475705] (xpkg_comm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/environment/path.sh\n'}
+[35.476265] (xpkg_comm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/environment/path.dsv\n'}
+[35.476477] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/local_setup.bash\n'}
+[35.476658] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/local_setup.sh\n'}
+[35.476888] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/local_setup.zsh\n'}
+[35.477105] (xpkg_comm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/local_setup.dsv\n'}
+[35.477312] (xpkg_comm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.dsv\n'}
+[35.477516] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/ament_index/resource_index/packages/xpkg_comm\n'}
+[35.477851] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/cmake/xpkg_commConfig.cmake\n'}
+[35.478143] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/cmake/xpkg_commConfig-version.cmake\n'}
+[35.478394] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/package.xml\n'}
+[35.484589] (xpkg_comm) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib/xpkg_comm/xnode_comm\n'}
+[35.505325] (xpkg_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/lib/xpkg_comm/xnode_comm" to ""\n'}
+[35.506182] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/launch\n'}
+[35.506398] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/launch/ROS2\n'}
+[35.506613] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/launch/ROS2/xnode_comm_test.launch.py\n'}
+[35.506791] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/launch/ROS2/xnode_comm_test.launch.xml\n'}
+[35.506963] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/launch/ROS1\n'}
+[35.507128] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/launch/ROS1/xnode_comm_test.launch\n'}
+[35.507299] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/scripts\n'}
+[35.507476] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/scripts/script_init.py\n'}
+[35.507681] (xpkg_comm) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_comm/share/xpkg_comm/scripts/CAN_COM_HUB.rules\n'}
+[35.512229] (xpkg_comm) CommandEnded: {'returncode': 0}
+[35.568484] (-) TimerEvent: {}
+[35.669494] (-) TimerEvent: {}
+[35.691495] (xpkg_comm) JobEnded: {'identifier': 'xpkg_comm', 'rc': 0}
+[35.769788] (-) TimerEvent: {}
+[35.870539] (-) TimerEvent: {}
+[35.971327] (-) TimerEvent: {}
+[36.071850] (-) TimerEvent: {}
+[36.172080] (-) TimerEvent: {}
+[36.272515] (-) TimerEvent: {}
+[36.373084] (-) TimerEvent: {}
+[36.473733] (-) TimerEvent: {}
+[36.574283] (-) TimerEvent: {}
+[36.674661] (-) TimerEvent: {}
+[36.775118] (-) TimerEvent: {}
+[36.875841] (-) TimerEvent: {}
+[36.976510] (-) TimerEvent: {}
+[37.077233] (-) TimerEvent: {}
+[37.177964] (-) TimerEvent: {}
+[37.278665] (-) TimerEvent: {}
+[37.379324] (-) TimerEvent: {}
+[37.480009] (-) TimerEvent: {}
+[37.580598] (-) TimerEvent: {}
+[37.681162] (-) TimerEvent: {}
+[37.781719] (-) TimerEvent: {}
+[37.882402] (-) TimerEvent: {}
+[37.983062] (-) TimerEvent: {}
+[38.083691] (-) TimerEvent: {}
+[38.184377] (-) TimerEvent: {}
+[38.285337] (-) TimerEvent: {}
+[38.386395] (-) TimerEvent: {}
+[38.487447] (-) TimerEvent: {}
+[38.588386] (-) TimerEvent: {}
+[38.688956] (-) TimerEvent: {}
+[38.789580] (-) TimerEvent: {}
+[38.890151] (-) TimerEvent: {}
+[38.990796] (-) TimerEvent: {}
+[39.091688] (-) TimerEvent: {}
+[39.192339] (-) TimerEvent: {}
+[39.292935] (-) TimerEvent: {}
+[39.393518] (-) TimerEvent: {}
+[39.494302] (-) TimerEvent: {}
+[39.595277] (-) TimerEvent: {}
+[39.696315] (-) TimerEvent: {}
+[39.797408] (-) TimerEvent: {}
+[39.898424] (-) TimerEvent: {}
+[39.999219] (-) TimerEvent: {}
+[40.100010] (-) TimerEvent: {}
+[40.200719] (-) TimerEvent: {}
+[40.301293] (-) TimerEvent: {}
+[40.401813] (-) TimerEvent: {}
+[40.502265] (-) TimerEvent: {}
+[40.512796] (xpkg_vehicle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable xnode_vehicle\x1b[0m\n'}
+[40.602504] (-) TimerEvent: {}
+[40.703380] (-) TimerEvent: {}
+[40.803812] (-) TimerEvent: {}
+[40.904356] (-) TimerEvent: {}
+[41.004872] (-) TimerEvent: {}
+[41.105369] (-) TimerEvent: {}
+[41.205841] (-) TimerEvent: {}
+[41.306442] (-) TimerEvent: {}
+[41.407064] (-) TimerEvent: {}
+[41.507650] (-) TimerEvent: {}
+[41.608042] (-) TimerEvent: {}
+[41.611128] (xpkg_vehicle) StdoutLine: {'line': b'[100%] Built target xnode_vehicle\n'}
+[41.624696] (xpkg_vehicle) CommandEnded: {'returncode': 0}
+[41.673434] (xpkg_vehicle) JobProgress: {'identifier': 'xpkg_vehicle', 'progress': 'install'}
+[41.675566] (xpkg_vehicle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle'], 'cwd': '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'leomorningrain'), ('LC_TIME', 'zh_CN.UTF-8'), ('VANA_LICENSE_TO', 'sui bian xie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/home/leomorningrain'), ('OLDPWD', '/home/leomorningrain/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'leomorningrain'), ('VANA_LICENSE_MODE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leomorningrain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leomorningrain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leomorningrain-ZERO:@/tmp/.ICE-unix/2698,unix/leomorningrain-ZERO:/tmp/.ICE-unix/2698'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3f2dcc77_e11b_41e1_8d32_d0af2fb305c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/xpkg_vehicle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_msgs:/opt/ros/humble')]), 'shell': False}
+[41.682940] (xpkg_vehicle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.683150] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/ament_index/resource_index/package_run_dependencies/xpkg_vehicle\n'}
+[41.683252] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/ament_index/resource_index/parent_prefix_path/xpkg_vehicle\n'}
+[41.683324] (xpkg_vehicle) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/ament_prefix_path.sh\n'}
+[41.683635] (xpkg_vehicle) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/ament_prefix_path.dsv\n'}
+[41.684078] (xpkg_vehicle) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/path.sh\n'}
+[41.684194] (xpkg_vehicle) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/environment/path.dsv\n'}
+[41.684258] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.bash\n'}
+[41.684312] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.sh\n'}
+[41.684363] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.zsh\n'}
+[41.684416] (xpkg_vehicle) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/local_setup.dsv\n'}
+[41.684467] (xpkg_vehicle) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.dsv\n'}
+[41.684518] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/ament_index/resource_index/packages/xpkg_vehicle\n'}
+[41.684570] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/cmake/xpkg_vehicleConfig.cmake\n'}
+[41.684622] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/cmake/xpkg_vehicleConfig-version.cmake\n'}
+[41.684676] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/package.xml\n'}
+[41.686081] (xpkg_vehicle) StdoutLine: {'line': b'-- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib/xpkg_vehicle/xnode_vehicle\n'}
+[41.696868] (xpkg_vehicle) StdoutLine: {'line': b'-- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/lib/xpkg_vehicle/xnode_vehicle" to ""\n'}
+[41.697410] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch\n'}
+[41.697525] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/config\n'}
+[41.697632] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/config/rviz_vehicle.rviz\n'}
+[41.697711] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS2\n'}
+[41.697778] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS2/xnode_vehicle_test.launch.py\n'}
+[41.697835] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS2/xnode_vehicle_test.launch.xml\n'}
+[41.697898] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS1\n'}
+[41.697964] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/launch/ROS1/xnode_vehicle_test.launch\n'}
+[41.698022] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/ini\n'}
+[41.698076] (xpkg_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/xpkg_vehicle/share/xpkg_vehicle/ini/device_id_list.ini\n'}
+[41.700168] (xpkg_vehicle) CommandEnded: {'returncode': 0}
+[41.708278] (-) TimerEvent: {}
+[41.761055] (xpkg_vehicle) JobEnded: {'identifier': 'xpkg_vehicle', 'rc': 0}
+[41.762849] (-) EventReactorShutdown: {}
